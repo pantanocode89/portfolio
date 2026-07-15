@@ -1,0 +1,10 @@
+<svg width="760" height="360" viewBox="0 0 760 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="360" rx="48" fill="#101111"/>
+  <path class="intro-line intro-base" d="M194 214V92H222L302 204L382 92H410V214" stroke="#E8DCC4" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="intro-line intro-left" d="M194 214V92H222L302 204" stroke="#B08A67" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="intro-line intro-right" d="M302 204L382 92H410V214" stroke="#8D9770" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M216 242H388" stroke="#8F5746" stroke-width="8" stroke-linecap="round"/>
+  <text x="484" y="156" fill="#E8DCC4" font-family="Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="1">Panta</text>
+  <text x="484" y="210" fill="#E8DCC4" font-family="Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="1">Studio</text>
+  <text x="486" y="246" fill="#B9AD9B" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="5">MILOS PANTIC</text>
+</svg>
