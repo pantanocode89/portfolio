@@ -1,5 +1,15 @@
 const translations = {
   en: {
+    "hero.title": "Digital tools that make business easier to run.",
+    "hero.trust1": "Hospitality",
+    "hero.trust2": "Tourism",
+    "hero.trust3": "Business operations",
+    "projects.lead": "Each project begins with a practical problem and ends with a product people can use with confidence.",
+    "project1.outcome1": "Less manual coordination",
+    "project1.outcome2": "One clear workflow from guest to kitchen",
+    "project1.outcome3": "Works on every device",
+    "services.lead": "One partner for product thinking, design, development and launch.",
+    "footer.top": "Back to top ↑",
     "intro.skip": "Skip",
     "case.label": "Case Study",
     "case.businessValue": "Business value",
@@ -23,15 +33,15 @@ const translations = {
     "nav.services": "Services",
     "nav.process": "Process",
     "nav.contact": "Contact",
-    "hero.kicker": "Panta Studio &middot; Austria &amp; Serbia",
+    "hero.kicker": "Websites &middot; Apps &middot; Business systems",
     "hero.role": "Full Stack Developer",
     "hero.text": "Building modern websites, web applications and business software that solve real-world business problems.",
     "hero.projects": "View Projects",
     "hero.start": "Start a Project",
     "about.label": "About",
-    "about.title": "Developer working between Serbia and Austria.",
-    "about.text": "I am Milos Pantic, a web developer working between Serbia and Austria. I build modern websites and digital tools that simplify everyday business processes.",
-    "about.point1": "Based in Austria and Serbia",
+    "about.title": "Close to the business. Open to the world.",
+    "about.text": "I am Milos Pantic, an independent full-stack developer working internationally. I build websites and digital tools that simplify everyday business processes.",
+    "about.point1": "Available for international projects",
     "about.point2": "Web, PWA and business software",
     "about.point3": "Solutions designed around real workflows",
     "projects.label": "Projects",
@@ -69,10 +79,8 @@ const translations = {
     "contact.label": "Contact",
     "contact.title": "Have an idea or a business problem to solve?",
     "contact.text": "Tell me what you need. I will help turn it into a practical digital solution.",
-    "contact.locations": "Flachau, Austria &middot; Vitkovac, Serbia",
     "contact.email": "Send an Email",
     "footer.role": "Milos Pantic - Full Stack Developer",
-    "footer.location": "Austria &middot; Serbia",
     "footer.credit": "Designed and developed by Milos Pantic.",
     "fg.category": "Restaurant software",
     "fg.title": "Group Menu Ordering System",
@@ -117,6 +125,16 @@ const translations = {
     "fw.result": "The farm gets a clearer overview of workers, costs, income and seasonal results, with reports that can be used on phone or computer."
   },
   de: {
+    "hero.title": "Digitale Lösungen, die den Geschäftsalltag einfacher machen.",
+    "hero.trust1": "Gastronomie",
+    "hero.trust2": "Tourismus",
+    "hero.trust3": "Betriebsabläufe",
+    "projects.lead": "Jedes Projekt beginnt mit einem praktischen Problem und endet mit einem Produkt, das Menschen sicher nutzen können.",
+    "project1.outcome1": "Weniger manuelle Koordination",
+    "project1.outcome2": "Ein klarer Ablauf vom Gast bis zur Küche",
+    "project1.outcome3": "Funktioniert auf jedem Gerät",
+    "services.lead": "Ein Partner für Produktplanung, Design, Entwicklung und Launch.",
+    "footer.top": "Nach oben ↑",
     "intro.skip": "&Uuml;berspringen",
     "case.label": "Fallstudie",
     "case.businessValue": "Gesch&auml;ftlicher Nutzen",
@@ -140,15 +158,15 @@ const translations = {
     "nav.services": "Leistungen",
     "nav.process": "Ablauf",
     "nav.contact": "Kontakt",
-    "hero.kicker": "Panta Studio &middot; &Ouml;sterreich &amp; Serbien",
+    "hero.kicker": "Websites &middot; Apps &middot; Gesch&auml;ftssysteme",
     "hero.role": "Full Stack Developer",
     "hero.text": "Ich entwickle moderne Websites, Webanwendungen und Unternehmenssoftware, die reale Gesch&auml;ftsprobleme l&ouml;sen.",
     "hero.projects": "Projekte ansehen",
     "hero.start": "Projekt starten",
     "about.label": "&Uuml;ber mich",
-    "about.title": "Entwickler zwischen Serbien und &Ouml;sterreich.",
-    "about.text": "Ich bin Milos Pantic, ein Webentwickler zwischen Serbien und &Ouml;sterreich. Ich entwickle moderne Websites und digitale Werkzeuge, die allt&auml;gliche Gesch&auml;ftsprozesse vereinfachen.",
-    "about.point1": "In &Ouml;sterreich und Serbien zu Hause",
+    "about.title": "Nah am Gesch&auml;ft. Offen f&uuml;r die Welt.",
+    "about.text": "Ich bin Milos Pantic, ein unabh&auml;ngiger Full-Stack-Entwickler f&uuml;r internationale Projekte. Ich entwickle Websites und digitale Werkzeuge, die allt&auml;gliche Gesch&auml;ftsprozesse vereinfachen.",
+    "about.point1": "Verf&uuml;gbar f&uuml;r internationale Projekte",
     "about.point2": "Web, PWA und Unternehmenssoftware",
     "about.point3": "L&ouml;sungen f&uuml;r echte Arbeitsabl&auml;ufe",
     "projects.label": "Projekte",
@@ -186,10 +204,8 @@ const translations = {
     "contact.label": "Kontakt",
     "contact.title": "Haben Sie eine Idee oder ein Gesch&auml;ftsproblem?",
     "contact.text": "Sagen Sie mir, was Sie brauchen. Ich helfe dabei, daraus eine praktische digitale L&ouml;sung zu machen.",
-    "contact.locations": "Flachau, &Ouml;sterreich &middot; Vitkovac, Serbien",
     "contact.email": "E-Mail senden",
     "footer.role": "Milos Pantic - Full Stack Developer",
-    "footer.location": "&Ouml;sterreich &middot; Serbien",
     "footer.credit": "Entworfen und entwickelt von Milos Pantic.",
     "fg.category": "Restaurantsoftware",
     "fg.title": "Gruppen-Men&uuml;bestellsystem",
@@ -234,6 +250,16 @@ const translations = {
     "fw.result": "Der Betrieb erh&auml;lt einen klareren &Uuml;berblick &uuml;ber Arbeiter, Kosten, Einnahmen und Saisonergebnisse."
   },
   sr: {
+    "hero.title": "Digitalni alati koji olakšavaju svakodnevno poslovanje.",
+    "hero.trust1": "Ugostiteljstvo",
+    "hero.trust2": "Turizam",
+    "hero.trust3": "Poslovni procesi",
+    "projects.lead": "Svaki projekat počinje praktičnim problemom i završava se proizvodom koji ljudi koriste sa lakoćom.",
+    "project1.outcome1": "Manje ručne koordinacije",
+    "project1.outcome2": "Jasan tok od gosta do kuhinje",
+    "project1.outcome3": "Radi na svakom uređaju",
+    "services.lead": "Jedan partner za planiranje proizvoda, dizajn, razvoj i lansiranje.",
+    "footer.top": "Nazad na vrh ↑",
     "intro.skip": "Presko&ccaron;i",
     "case.label": "Studija slu&ccaron;aja",
     "case.businessValue": "Poslovna vrednost",
@@ -257,15 +283,15 @@ const translations = {
     "nav.services": "Usluge",
     "nav.process": "Proces",
     "nav.contact": "Kontakt",
-    "hero.kicker": "Panta Studio &middot; Austrija i Srbija",
+    "hero.kicker": "Web sajtovi &middot; Aplikacije &middot; Poslovni sistemi",
     "hero.role": "Full Stack Developer",
     "hero.text": "Razvijam moderne web sajtove, web aplikacije i poslovni softver koji re&scaron;avaju stvarne poslovne probleme.",
     "hero.projects": "Pogledaj projekte",
     "hero.start": "Pokrenimo projekat",
     "about.label": "O meni",
-    "about.title": "Developer izme&dstrok;u Srbije i Austrije.",
-    "about.text": "Ja sam Milos Pantic, web developer koji radi izme&dstrok;u Srbije i Austrije. Pravim moderne web sajtove i digitalne alate koji pojednostavljuju svakodnevne poslovne procese.",
-    "about.point1": "Baziran u Austriji i Srbiji",
+    "about.title": "Blizu poslovanja. Otvoren prema svijetu.",
+    "about.text": "Ja sam Milos Pantic, nezavisni full-stack developer dostupan za međunarodne projekte. Pravim web sajtove i digitalne alate koji pojednostavljuju svakodnevne poslovne procese.",
+    "about.point1": "Dostupan za međunarodne projekte",
     "about.point2": "Web, PWA i poslovni softver",
     "about.point3": "Re&scaron;enja napravljena oko stvarnih procesa",
     "projects.label": "Projekti",
@@ -303,10 +329,8 @@ const translations = {
     "contact.label": "Kontakt",
     "contact.title": "Ima&scaron; ideju ili poslovni problem za re&scaron;avanje?",
     "contact.text": "Reci mi &scaron;ta ti treba. Pomo&cacute;i &cacute;u da to pretvorimo u prakti&ccaron;no digitalno re&scaron;enje.",
-    "contact.locations": "Flachau, Austrija &middot; Vitkovac, Srbija",
     "contact.email": "Po&scaron;alji email",
     "footer.role": "Milos Pantic - Full Stack Developer",
-    "footer.location": "Austrija &middot; Srbija",
     "footer.credit": "Dizajnirao i razvio Milos Pantic.",
     "fg.category": "Restoranski softver",
     "fg.title": "Sistem za grupno poru&ccaron;ivanje menija",
@@ -456,12 +480,81 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
-document.querySelectorAll('a[href^="#"]').forEach((link) => {
-  link.addEventListener("click", (event) => {
-    const target = document.querySelector(link.getAttribute("href"));
-    if (!target) return;
+const homeMain = document.querySelector("main#top");
+const portfolioViews = ["top", "projects", "services", "about", "contact"];
 
-    event.preventDefault();
-    target.scrollIntoView({ behavior: "smooth", block: "start" });
+function showPortfolioView(view, updateHistory = false) {
+  if (!homeMain || !portfolioViews.includes(view)) return;
+
+  const sections = Array.from(homeMain.children).filter((element) => element.tagName === "SECTION");
+  sections.forEach((section) => {
+    const sectionView = section.classList.contains("hero") ? "top" : section.id;
+    section.hidden = view === "top" ? false : sectionView !== view;
+  });
+
+  document.body.dataset.portfolioView = view;
+  document.querySelectorAll("#main-nav a[href^='#']").forEach((link) => {
+    const active = link.getAttribute("href") === `#${view}`;
+    link.classList.toggle("is-active", active);
+    if (active) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  });
+
+  if (updateHistory) {
+    const nextUrl = view === "top" ? `${location.pathname}${location.search}` : `#${view}`;
+    history.pushState({ portfolioView: view }, "", nextUrl);
+  }
+
+  window.scrollTo({ top: 0, behavior: "auto" });
+}
+
+if (homeMain) {
+  document.querySelectorAll('a[href^="#"]').forEach((link) => {
+    const view = link.getAttribute("href").slice(1) || "top";
+    if (!portfolioViews.includes(view)) return;
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      showPortfolioView(view, true);
+    });
+  });
+
+  window.addEventListener("popstate", () => {
+    showPortfolioView(location.hash.slice(1) || "top");
+  });
+
+  showPortfolioView(location.hash.slice(1) || "top");
+}
+
+const menuToggle = document.querySelector(".menu-toggle");
+const mainNav = document.querySelector("#main-nav");
+if (menuToggle && mainNav) {
+  menuToggle.addEventListener("click", () => {
+    const open = mainNav.classList.toggle("is-open");
+    menuToggle.setAttribute("aria-expanded", String(open));
+  });
+  mainNav.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => {
+    mainNav.classList.remove("is-open");
+    menuToggle.setAttribute("aria-expanded", "false");
+  }));
+}
+
+const year = document.getElementById("year");
+if (year) year.textContent = new Date().getFullYear();
+
+document.querySelectorAll("[data-project-href]").forEach((card) => {
+  const openProject = () => {
+    window.location.href = card.dataset.projectHref;
+  };
+
+  card.addEventListener("click", (event) => {
+    if (event.target.closest("a")) return;
+    openProject();
+  });
+
+  card.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      openProject();
+    }
   });
 });

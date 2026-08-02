@@ -1,297 +1,142 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Panta Studio - modern websites, web applications and business software by Milos Pantic.">
-    <title>Panta Studio | Milos Pantic</title>
-    <link rel="icon" href="./public/logo/panta-studio-icon.png" type="image/png">
-    <link rel="apple-touch-icon" href="./public/logo/apple-touch-icon.png">
-    <link rel="stylesheet" href="./styles.css">
-  </head>
-  <body>
-    <div class="site-intro" role="dialog" aria-label="Panta Studio intro">
-      <img src="./public/logo/panta-studio-logo-white.png" alt="">
-      <button class="intro-skip" type="button" data-i18n="intro.skip">Skip</button>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Panta Studios — websites, applications and custom digital products by Milos Pantic.">
+  <meta name="theme-color" content="#f4f0e8">
+  <title>Panta Studios — Digital products by Milos Pantic</title>
+  <link rel="icon" href="./public/logo/panta-portal-ivory.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./public/logo/apple-touch-icon.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Panta Studios home">
+      <img src="./public/logo/panta-portal-ivory.svg" alt="" class="brand-logo">
+      <span><strong>PANTA</strong><small>STUDIOS</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" class="nav-links" aria-label="Main navigation">
+      <a href="#top" data-i18n="nav.home">Home</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a class="nav-cta" href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="language-switch" aria-label="Language options">
+      <button type="button" data-lang="en">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="sr">SR</button>
     </div>
-    <header class="site-header" data-reveal>
-      <a class="brand" href="#top" aria-label="Panta Studio home">
-        <img src="./public/logo/panta-studio-logo-white.png" alt="" class="brand-logo">
-        <span>
-          <strong>Panta Studio</strong>
-          <small>Milos Pantic</small>
-        </span>
-      </a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="#top" data-i18n="nav.home">Home</a>
-        <a href="#projects" data-i18n="nav.projects">Projects</a>
-        <a href="#services" data-i18n="nav.services">Services</a>
-        <a href="#about" data-i18n="nav.about">About</a>
-        <a href="#contact" data-i18n="nav.contact">Contact</a>
-      </nav>
-      <div class="language-switch" aria-label="Language options">
-        <button type="button" data-lang="en">EN</button>
-        <button type="button" data-lang="de">DE</button>
-        <button type="button" data-lang="sr">SR</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-code-bg" aria-hidden="true">
+        <pre><code>const idea = understand(business);
+const product = design(idea, { clear: true });
+
+async function buildSolution() {
+  const workflow = await simplify(process);
+  return launch(workflow);
+}
+
+&lt;DigitalProduct
+  useful
+  responsive
+  builtFor="real work"
+/&gt;
+
+if (problem.isRepetitive) {
+  automate(problem);
+}
+
+PantaStudios.create({
+  strategy,
+  design,
+  development
+});</code></pre>
       </div>
-    </header>
-
-    <main id="top">
-      <section class="hero section">
-        <div class="hero-bg" aria-hidden="true">
-          <svg viewBox="0 0 1200 260" preserveAspectRatio="none">
-            <path d="M0 214L95 152L160 181L260 84L365 175L470 101L590 198L720 76L835 172L930 118L1035 181L1200 66V260H0Z"></path>
-          </svg>
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow" data-i18n="hero.kicker">Websites · Apps · Business systems</p>
+        <h1 data-i18n="hero.title">Digital tools that make business easier to run.</h1>
+        <p class="intro" data-i18n="hero.text">I design and build websites, web applications and custom software around the way your business actually works.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects" data-i18n="hero.projects">Explore selected work</a>
+          <a class="btn text-btn" href="#contact" data-i18n="hero.start">Tell me about your project <span>↗</span></a>
         </div>
-
-        <div class="hero-copy" data-reveal>
-          <p class="eyebrow" data-i18n="hero.kicker">Panta Studio &middot; Austria &amp; Serbia</p>
-          <h1>Milos Pantic</h1>
-          <p class="role" data-i18n="hero.role">Full Stack Developer</p>
-          <p class="intro">
-            <span data-i18n="hero.text">Building modern websites, web applications and business software that solve real-world business problems.</span>
-          </p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#projects" data-i18n="hero.projects">View Projects</a>
-            <a class="btn secondary" href="#contact" data-i18n="hero.start">Start a Project</a>
-          </div>
-        </div>
-
-        <aside class="hero-showcase" data-reveal aria-label="Developer preview">
-          <div class="hero-logo-card">
-            <img src="./public/logo/panta-studio-logo-white.png" alt="Panta Studio logo">
-          </div>
-          <div class="frost-code-window">
-            <div class="code-panel hero-code-panel" aria-label="Code preview">
-              <div class="code-bar">
-                <span></span>
-                <span></span>
-                <span></span>
-                <small>panta.studio</small>
-              </div>
-              <pre><code id="typed-code" data-code="&lt;main class=&quot;panta-studio&quot;&gt;
-  &lt;h1&gt;Milos Pantic&lt;/h1&gt;
-  &lt;p&gt;Full Stack Web Developer&lt;/p&gt;
-  &lt;p&gt;PWA, mobile apps &amp; business software&lt;/p&gt;
-  &lt;span&gt;Serbia + Austria&lt;/span&gt;
-&lt;/main&gt;"></code></pre>
-            </div>
-          </div>
-        </aside>
-      </section>
-
-      <section id="projects" class="section">
-        <div class="section-title" data-reveal>
-          <p class="eyebrow" data-i18n="projects.label">Projects</p>
-          <h2 data-i18n="projects.title">Systems that show business understanding, not only code.</h2>
-        </div>
-
-        <div class="project-grid">
-          <article class="project-card featured" data-reveal>
-            <div class="project-media restaurant-media" aria-hidden="true">
-              <div class="mock-window">
-                <span></span>
-                <span></span>
-                <span></span>
-                <div class="mock-heading"></div>
-                <div class="mock-row"></div>
-                <div class="mock-row short"></div>
-              </div>
-            </div>
-            <div class="project-content">
-              <p class="project-type" data-i18n="project1.type">Group Menu Ordering System</p>
-              <h3>Flachauer Gutshof</h3>
-              <p data-i18n="project1.text">A complete digital ordering system for restaurant groups, including QR access, participant ordering, administration, kitchen lists and PDF reports.</p>
-              <div class="tags">
-                <span>PWA</span>
-                <span>Firebase</span>
-                <span data-i18n="tag.admin">Admin Dashboard</span>
-                <span data-i18n="tag.qr">QR Ordering</span>
-                <span>PDF</span>
-              </div>
-              <a class="text-link" href="./flachauer-gutshof.html" data-i18n="projects.case">View Case Study</a>
-            </div>
-          </article>
-
-          <article class="project-card" data-reveal>
-            <div class="project-media alpine-media" aria-hidden="true">
-              <div class="mock-browser">
-                <div class="mock-hero"></div>
-                <div class="mock-columns">
-                  <span></span>
-                  <span></span>
-                </div>
-              </div>
-            </div>
-            <div class="project-content">
-              <p class="project-type" data-i18n="project2.type">Premium Tourism Website</p>
-              <h3>Alpenchalets Flachau</h3>
-              <p data-i18n="project2.text">A multilingual accommodation website designed to present alpine chalets, support direct bookings and create a strong premium brand experience.</p>
-              <div class="tags">
-                <span data-i18n="tag.tourism">Tourism</span>
-                <span data-i18n="tag.responsive">Responsive Design</span>
-                <span data-i18n="tag.multilingual">Multilingual</span>
-                <span>SEO</span>
-              </div>
-              <a class="text-link" href="./alpenchalets-flachau.html" data-i18n="projects.case">View Case Study</a>
-            </div>
-          </article>
-
-          <article class="project-card" data-reveal>
-            <div class="project-media farm-media" aria-hidden="true">
-              <div class="mock-report">
-                <div class="chart">
-                  <span style="--h: 52%"></span>
-                  <span style="--h: 72%"></span>
-                  <span style="--h: 46%"></span>
-                  <span style="--h: 84%"></span>
-                </div>
-                <div class="report-lines">
-                  <span></span>
-                  <span></span>
-                </div>
-              </div>
-            </div>
-            <div class="project-content">
-              <p class="project-type" data-i18n="project3.type">Farm Workforce &amp; Revenue Management</p>
-              <h3 data-i18n="project3.title">Agricultural Management System</h3>
-              <p data-i18n="project3.text">A flexible application for managing agricultural workers, daily wages, tasks, expenses, income and seasonal reports.</p>
-              <div class="tags">
-                <span data-i18n="tag.agriculture">Agriculture</span>
-                <span data-i18n="tag.worker">Worker Management</span>
-                <span data-i18n="tag.revenue">Revenue Tracking</span>
-                <span>PWA</span>
-                <span data-i18n="tag.reports">Reports</span>
-              </div>
-              <a class="text-link" href="./farm-workforce-revenue.html" data-i18n="projects.case">View Case Study</a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="services" class="section">
-        <div class="section-title" data-reveal>
-          <p class="eyebrow" data-i18n="services.label">Services</p>
-          <h2 data-i18n="services.title">Digital products for daily business operations.</h2>
-        </div>
-        <div class="service-grid">
-          <article class="service-card" data-reveal>
-            <span>01</span>
-            <h3 data-i18n="service1.title">Business Websites</h3>
-            <p data-i18n="service1.text">Modern websites for hotels, restaurants, apartments and small companies.</p>
-          </article>
-          <article class="service-card" data-reveal>
-            <span>02</span>
-            <h3 data-i18n="service2.title">Progressive Web Apps</h3>
-            <p data-i18n="service2.text">Apps that work on phones and computers and can be installed without a classic app store.</p>
-          </article>
-          <article class="service-card" data-reveal>
-            <span>03</span>
-            <h3 data-i18n="service3.title">Custom Business Systems</h3>
-            <p data-i18n="service3.text">Ordering, calculations, worker records, PDF reports and administration tools.</p>
-          </article>
-          <article class="service-card" data-reveal>
-            <span>04</span>
-            <h3 data-i18n="service4.title">Mobile App Development</h3>
-            <p data-i18n="service4.text">Turning web applications into Android and iPhone apps when the business needs it.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="process" class="section process-section">
-        <div class="section-title" data-reveal>
-          <p class="eyebrow" data-i18n="process.label">Process</p>
-          <h2 data-i18n="process.title">From business problem to practical solution.</h2>
-        </div>
-        <div class="process-grid">
-          <article data-reveal>
-            <span>01</span>
-            <h3 data-i18n="process1.title">Understand</h3>
-            <p data-i18n="process1.text">Understanding the problem and the way the business works.</p>
-          </article>
-          <article data-reveal>
-            <span>02</span>
-            <h3 data-i18n="process2.title">Design</h3>
-            <p data-i18n="process2.text">Planning the features, structure and user experience.</p>
-          </article>
-          <article data-reveal>
-            <span>03</span>
-            <h3 data-i18n="process3.title">Develop</h3>
-            <p data-i18n="process3.text">Building the system, testing the workflow and refining the details.</p>
-          </article>
-          <article data-reveal>
-            <span>04</span>
-            <h3 data-i18n="process4.title">Launch</h3>
-            <p data-i18n="process4.text">Deployment, support and improvements after the product is live.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section stack-section">
-        <div class="section-title" data-reveal>
-          <p class="eyebrow" data-i18n="tools.label">Tools</p>
-          <h2 data-i18n="tools.title">Modern development without making the stack the headline.</h2>
-        </div>
-        <div class="stack-grid" data-reveal>
-          <span>React</span>
-          <span>Next.js</span>
-          <span>TypeScript</span>
-          <span>Firebase</span>
-          <span>Firestore</span>
-          <span>PWA</span>
-          <span>Android</span>
-          <span data-i18n="tag.responsive">Responsive Design</span>
-          <span>UI/UX Design</span>
-        </div>
-      </section>
-
-      <section id="about" class="section about-section">
-        <div class="section-title" data-reveal>
-          <p class="eyebrow" data-i18n="about.label">About</p>
-          <h2 data-i18n="about.title">Developer working between Serbia and Austria.</h2>
-        </div>
-        <div class="about-grid">
-          <div class="about-copy" data-reveal>
-            <p>
-              <span data-i18n="about.text">I am Milos Pantic, a web developer working between Serbia and Austria. I build modern websites and digital tools that simplify everyday business processes.</span>
-            </p>
-          </div>
-          <div class="about-points" data-reveal>
-            <span data-i18n="about.point1">Based in Austria and Serbia</span>
-            <span data-i18n="about.point2">Web, PWA and business software</span>
-            <span data-i18n="about.point3">Solutions designed around real workflows</span>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="section contact-section" data-reveal>
-        <div>
-          <p class="eyebrow" data-i18n="contact.label">Contact</p>
-          <h2 data-i18n="contact.title">Have an idea or a business problem to solve?</h2>
-          <p data-i18n="contact.text">Tell me what you need. I will help turn it into a practical digital solution.</p>
-          <p class="locations" data-i18n="contact.locations">Flachau, Austria &middot; Vitkovac, Serbia</p>
-        </div>
-        <div class="contact-card">
-          <a class="btn primary" href="mailto:hello@milospantic.dev" data-i18n="contact.email">Send an Email</a>
-          <a class="btn secondary" href="https://wa.me/" target="_blank" rel="noreferrer">WhatsApp</a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
-        </div>
-      </section>
-    </main>
-    <footer class="site-footer">
-      <div class="footer-brand">
-        <img src="./public/logo/panta-studio-logo-white.png" alt="">
-        <div>
-          <strong>Panta Studio</strong>
-          <span data-i18n="footer.role">Milos Pantic - Full Stack Developer</span>
-          <span data-i18n="footer.location">Austria &middot; Serbia</span>
+        <div class="hero-trust">
+          <span data-i18n="hero.trust1">Hospitality</span><span data-i18n="hero.trust2">Tourism</span><span data-i18n="hero.trust3">Business operations</span>
         </div>
       </div>
-      <p data-i18n="footer.credit">Designed and developed by Milos Pantic.</p>
-    </footer>
+      <div class="hero-visual" data-reveal aria-label="Preview of custom digital products">
+        <div class="portal-lines" aria-hidden="true"><span></span><span></span></div>
+        <div class="alpen-laptop" aria-label="Homepage of the Flachauer Alpenchalets website shown on a laptop">
+          <div class="alpen-laptop-screen">
+            <img class="alpen-original-hero" src="./public/projects/alpenchalets-desktop-hero.png" alt="Original desktop hero of the Flachauer Alpenchalets website">
+          </div>
+          <div class="alpen-laptop-base"><i></i></div>
+        </div>
+      </div>
+    </section>
 
-    <script src="./script.js"></script>
-  </body>
+    <section id="projects" class="section projects-section">
+      <div class="section-heading" data-reveal>
+        <div><p class="eyebrow" data-i18n="projects.label">Selected work</p><h2 data-i18n="projects.title">Built for real work, not just for show.</h2></div>
+        <p data-i18n="projects.lead">Each project begins with a practical problem and ends with a product people can use with confidence.</p>
+      </div>
+
+      <article class="featured-project clickable-project" data-reveal data-project-href="./flachauer-gutshof.html" role="link" tabindex="0" aria-label="Open Flachauer Gutshof case study">
+        <div class="project-preview restaurant-preview">
+          <div class="browser-bar"><span></span><span></span><span></span><small>Gutshof Gruppenbestellung</small></div>
+          <div class="app-shell">
+            <aside><b>FG</b><i></i><i></i><i></i></aside>
+            <div class="app-content"><small>GRUPPENBESTELLUNG</small><h3>Abendessen</h3><div class="app-stats"><span><b>24</b> Gäste</span><span><b>19</b> Bestellt</span><span><b>5</b> Offen</span></div><div class="app-list"><i></i><i></i><i></i></div></div>
+          </div>
+        </div>
+        <div class="project-info">
+          <p class="project-type" data-i18n="project1.type">Restaurant operations · PWA</p>
+          <h3>Flachauer Gutshof</h3>
+          <p data-i18n="project1.text">A group ordering system that turns QR orders into clear participant overviews, kitchen lists and PDF reports.</p>
+          <ul class="outcomes"><li data-i18n="project1.outcome1">Less manual coordination</li><li data-i18n="project1.outcome2">One clear workflow from guest to kitchen</li><li data-i18n="project1.outcome3">Works on every device</li></ul>
+          <a class="project-link" href="./flachauer-gutshof.html" data-i18n="projects.case">Read the case study <span>↗</span></a>
+        </div>
+      </article>
+
+      <div class="project-pair">
+        <article class="project-card clickable-project" data-reveal data-project-href="./alpenchalets-flachau.html" role="link" tabindex="0" aria-label="Open Alpenchalets Flachau case study">
+          <div class="project-preview chalet-preview"><div class="chalet-nav">ALPENCHALETS <span>Book your stay</span></div><div class="mountains"><i></i><i></i><i></i></div><div class="chalet-copy"><small>FLACHAU, AUSTRIA</small><strong>Your private place<br>in the Alps.</strong></div></div>
+          <div class="project-info"><p class="project-type" data-i18n="project2.type">Tourism · Premium website</p><h3>Alpenchalets Flachau</h3><p data-i18n="project2.text">A multilingual website designed to build trust quickly and guide guests toward direct bookings.</p><a class="project-link" href="./alpenchalets-flachau.html" data-i18n="projects.case">Read the case study <span>↗</span></a></div>
+        </article>
+        <article class="project-card clickable-project" data-reveal data-project-href="./farm-workforce-revenue.html" role="link" tabindex="0" aria-label="Open Farm Management System case study">
+          <div class="project-preview farm-preview"><div class="farm-head"><span>Season overview</span><b>2026</b></div><div class="farm-total"><small>Net result</small><strong>€28,460</strong><em>+14.2%</em></div><div class="farm-bars"><i style="--h:42%"></i><i style="--h:68%"></i><i style="--h:56%"></i><i style="--h:88%"></i><i style="--h:74%"></i></div></div>
+          <div class="project-info"><p class="project-type" data-i18n="project3.type">Agriculture · Business software</p><h3 data-i18n="project3.title">Farm Management System</h3><p data-i18n="project3.text">A mobile-first application for workers, wages, tasks, costs, revenue and seasonal reporting.</p><a class="project-link" href="./farm-workforce-revenue.html" data-i18n="projects.case">Read the case study <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <div class="section-heading" data-reveal><div><p class="eyebrow" data-i18n="services.label">What I do</p><h2 data-i18n="services.title">From a rough idea to a useful product.</h2></div><p data-i18n="services.lead">One partner for product thinking, design, development and launch.</p></div>
+      <div class="service-list">
+        <article data-reveal><span>01</span><div><h3 data-i18n="service1.title">Business websites</h3><p data-i18n="service1.text">Fast, distinctive websites that build trust and turn visits into direct inquiries.</p></div><b>↗</b></article>
+        <article data-reveal><span>02</span><div><h3 data-i18n="service2.title">Web applications</h3><p data-i18n="service2.text">Installable applications for phones and computers, without app-store friction.</p></div><b>↗</b></article>
+        <article data-reveal><span>03</span><div><h3 data-i18n="service3.title">Custom business systems</h3><p data-i18n="service3.text">Ordering, records, calculations, administration and reporting shaped around your workflow.</p></div><b>↗</b></article>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="about-mark" aria-hidden="true"><img src="./public/logo/panta-portal-ivory.svg" alt=""></div>
+      <div class="about-copy" data-reveal><p class="eyebrow" data-i18n="about.label">About</p><h2 data-i18n="about.title">Close to the business. Open to the world.</h2><p data-i18n="about.text">I’m Milos Pantic, an independent full-stack developer working internationally. I help hospitality, tourism and growing businesses replace manual work with clear digital products.</p><div class="about-facts"><span><strong>WORLDWIDE</strong><small data-i18n="about.point1">Available for international projects</small></span><span><strong>EN / DE / SR</strong><small data-i18n="about.point2">Projects in three languages</small></span><span><strong>01 → ∞</strong><small data-i18n="about.point3">From first idea to ongoing support</small></span></div></div>
+    </section>
+
+    <section id="contact" class="contact-section" data-reveal>
+      <p class="eyebrow" data-i18n="contact.label">Start a conversation</p>
+      <h2 data-i18n="contact.title">Have a business problem worth solving?</h2>
+      <p data-i18n="contact.text">Tell me where the work feels slow, complicated or repetitive. We’ll find the simplest useful solution.</p>
+      <a class="btn light" href="mailto:hello@milospantic.dev"><span data-i18n="contact.email">hello@milospantic.dev</span><b>↗</b></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-mark" href="#top" aria-label="Panta Studios — back to top"><img src="./public/logo/panta-portal-ivory.svg" alt="Panta Studios"></a></footer>
+  <script src="./script.js"></script>
+</body>
 </html>
-
