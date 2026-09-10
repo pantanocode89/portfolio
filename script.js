@@ -487,7 +487,9 @@ if (intro && intro.isConnected) {
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     window.setTimeout(finishIntro, 1800);
   } else {
-    window.setTimeout(finishIntro, 4300);
+    const startIntroTimer = () => window.setTimeout(finishIntro, 4300);
+    if (document.readyState === "complete") startIntroTimer();
+    else window.addEventListener("load", startIntroTimer, { once: true });
     intro.addEventListener("click", finishIntro);
   }
 } else {

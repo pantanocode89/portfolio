@@ -8,10 +8,12 @@
   document.body.appendChild(button);
   const footer = document.querySelector(".site-footer");
 
+  let scrolling = false;
+  let idleTimer;
   const updateVisibility = () => {
     const footerVisible = footer && footer.getBoundingClientRect().top <= window.innerHeight;
     const atBottom = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 8;
-    const visible = window.scrollY > 80 && !footerVisible && !atBottom;
+    const visible = scrolling && window.scrollY > 80 && !footerVisible && !atBottom && !document.body.classList.contains("intro-active");
     button.classList.toggle("is-visible", visible);
     button.disabled = !visible;
     button.setAttribute("aria-hidden", String(!visible));
@@ -22,7 +24,12 @@
     window.scrollTo({ top: 0, behavior: reducedMotion ? "instant" : "smooth" });
   });
 
-  window.addEventListener("scroll", updateVisibility, { passive: true });
+  window.addEventListener("scroll", () => {
+    scrolling = true;
+    updateVisibility();
+    clearTimeout(idleTimer);
+    idleTimer = setTimeout(() => { scrolling = false; updateVisibility(); }, 1200);
+  }, { passive: true });
   window.addEventListener("resize", updateVisibility);
   window.addEventListener("load", updateVisibility);
   if (footer) new IntersectionObserver(updateVisibility).observe(footer);
