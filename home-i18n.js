@@ -30,7 +30,7 @@
       process:["A SIMPLE COLLABORATION","From your idea to a finished solution.","You always know what we are building, what it costs and what comes next.","Discovery call","Explain the problem, goal and current workflow.","Clear proposal","Receive a proposed solution, timeline and agreed price.","Build and refinement","Review a working preview and refine the details together.","Launch and support","I launch the project and remain available afterwards."],
       about:["MEET PANTA","One partner — from the first idea to a working product.","I am Miloš Pantić — most people call me Panta. I personally plan, design and develop every project, so you work directly with the person building your solution. From premium websites and booking tools to POS systems, operations, maintenance and custom automation, I turn ideas and everyday business challenges into clear, reliable digital products. I am open to new ideas, long-term partnerships and ambitious custom projects.","Direct, transparent collaboration","German, English and Serbian","Custom-built around your workflow","Support after launch"],
       contact:["IDEA, PROJECT OR COLLABORATION","Let’s discuss a solution designed around your needs.","Tell me about your idea, business challenge or collaboration proposal. Together, we can shape the right digital solution.","Send an inquiry","No obligation · Direct response · Clear proposal"],
-      footer:["Practical digital solutions","© 2026 Panta Digital Studio · Miloš Pantić. All rights reserved.","Legal notice","Privacy","Back to top ↑"]
+      footer:["Practical digital solutions","© 2026 Torlac Solutions · Miloš Pantić. All rights reserved.","Legal notice","Privacy","Back to top ↑"]
     },
     de: {
       nav:["Projekte","Leistungen","Über mich","Projekt starten ↗"],
@@ -62,7 +62,7 @@
       process:["EINFACHE ZUSAMMENARBEIT","Von Ihrer Idee zur fertigen Lösung.","Sie wissen immer, was entwickelt wird, was es kostet und wie es weitergeht.","Erstgespräch","Erklären Sie Problem, Ziel und aktuellen Ablauf.","Klares Angebot","Sie erhalten Lösungsvorschlag, Zeitplan und vereinbarten Preis.","Umsetzung und Feinschliff","Sie sehen eine funktionierende Vorschau und wir verfeinern die Details.","Launch und Support","Ich veröffentliche das Projekt und bleibe erreichbar."],
       about:["LERNEN SIE PANTA KENNEN","Ein Partner — von der ersten Idee bis zum funktionierenden Produkt.","Ich bin Miloš Pantić — die meisten nennen mich Panta. Jedes Projekt wird von mir persönlich geplant, gestaltet und entwickelt. Sie arbeiten direkt mit der Person, die Ihre Lösung umsetzt. Von Premium-Websites und Buchungstools bis zu Kassensystemen, Betriebsorganisation, Wartung und individueller Automatisierung verwandle ich Ideen und alltägliche Geschäftsprobleme in klare, zuverlässige digitale Produkte. Ich bin offen für neue Ideen, langfristige Partnerschaften und anspruchsvolle individuelle Projekte.","Direkte, transparente Zusammenarbeit","Deutsch, Englisch und Serbisch","Individuell für Ihre Abläufe","Support nach dem Launch"],
       contact:["IDEE, PROJEKT ODER ZUSAMMENARBEIT","Lassen Sie uns über eine Lösung für Ihre Anforderungen sprechen.","Beschreiben Sie Ihre Idee, geschäftliche Herausforderung oder Kooperationsanfrage. Gemeinsam entwickeln wir die passende digitale Lösung.","Anfrage senden","Unverbindlich · Direkte Antwort · Klares Angebot"],
-      footer:["Praktische digitale Lösungen","© 2026 Panta Digital Studio · Miloš Pantić. Alle Rechte vorbehalten.","Impressum","Datenschutz","Nach oben ↑"]
+      footer:["Praktische digitale Lösungen","© 2026 Torlac Solutions · Miloš Pantić. Alle Rechte vorbehalten.","Impressum","Datenschutz","Nach oben ↑"]
     },
     sr: {
       nav:["Projekti","Mogućnosti","O meni","Pokrenimo projekat ↗"],
@@ -94,7 +94,7 @@
       process:["JEDNOSTAVNA SARADNJA","Od vaše ideje do gotovog rešenja.","Uvek znate šta radimo, koliko košta i šta sledi.","Kratak razgovor","Objasnite problem, cilj i sadašnji način rada.","Jasna ponuda","Dobijate predlog, rok i dogovorenu cenu.","Izrada i korekcije","Vidite konkretan prikaz i zajedno dorađujemo detalje.","Objava i podrška","Pokrećem projekat i ostajem dostupan."],
       about:["UPOZNAJTE PANTU","Jedan partner — od prve ideje do gotovog proizvoda.","Ja sam Miloš Pantić — većina me zove Panta. Lično planiram, dizajniram i razvijam svaki projekat, pa sarađujete direktno sa osobom koja izrađuje vaše rešenje. Od premium sajtova i rezervacija do kasa-sistema, organizacije poslovanja, održavanja i automatizacije po meri, pretvaram ideje i svakodnevne poslovne probleme u jasne i pouzdane digitalne proizvode. Otvoren sam za nove ideje, dugoročnu saradnju i ambiciozne projekte po meri.","Direktna i transparentna saradnja","Nemački, engleski i srpski","Potpuno prilagođeno vašem radu","Podrška nakon objave"],
       contact:["IDEJA, PROJEKAT ILI SARADNJA","Razgovarajmo o rešenju koje odgovara baš vašim potrebama.","Opišite mi svoju ideju, poslovni problem ili predlog za saradnju. Zajedno možemo da osmislimo pravo digitalno rešenje.","Pošaljite upit","Bez obaveze · Direktan odgovor · Jasna ponuda"],
-      footer:["Praktična digitalna rešenja","© 2026 Panta Digital Studio · Miloš Pantić. Sva prava zadržana.","Impresum","Privatnost","Nazad na vrh ↑"]
+      footer:["Praktična digitalna rešenja","© 2026 Torlac Solutions · Miloš Pantić. Sva prava zadržana.","Impresum","Privatnost","Nazad na vrh ↑"]
     }
   };
 
@@ -103,9 +103,9 @@
   function apply(lang) {
     const c=copy[lang]||copy.en;
     const extras={
-      en:{menu:"Menu",code:['<i>const</i> studio = <b>"Panta Digital Studio"</b>;','<i>const</i> approach = <b>"practical solutions"</b>;','studio.<em>turnIdeasIntoResults</em>();'],signature:"Practical digital solutions for real business needs."},
-      de:{menu:"Menü",code:['<i>const</i> studio = <b>"Panta Digital Studio"</b>;','<i>const</i> ansatz = <b>"praktische Lösungen"</b>;','studio.<em>verwandeltIdeenInErgebnisse</em>();'],signature:"Praktische digitale Lösungen für echte Geschäftsanforderungen."},
-      sr:{menu:"Meni",code:['<i>const</i> studio = <b>"Panta Digital Studio"</b>;','<i>const</i> pristup = <b>"praktična rešenja"</b>;','studio.<em>pretvoriIdejeURezultate</em>();'],signature:"Praktična digitalna rešenja za stvarne poslovne potrebe."}
+      en:{menu:"Menu",code:['<i>const</i> studio = <b>"Torlac Solutions"</b>;','<i>const</i> approach = <b>"practical solutions"</b>;','studio.<em>turnIdeasIntoResults</em>();'],signature:"Practical digital solutions for real business needs."},
+      de:{menu:"Menü",code:['<i>const</i> studio = <b>"Torlac Solutions"</b>;','<i>const</i> ansatz = <b>"praktische Lösungen"</b>;','studio.<em>verwandeltIdeenInErgebnisse</em>();'],signature:"Praktische digitale Lösungen für echte Geschäftsanforderungen."},
+      sr:{menu:"Meni",code:['<i>const</i> studio = <b>"Torlac Solutions"</b>;','<i>const</i> pristup = <b>"praktična rešenja"</b>;','studio.<em>pretvoriIdejeURezultate</em>();'],signature:"Praktična digitalna rešenja za stvarne poslovne potrebe."}
     }[lang]||{};
     set(".menu-toggle",extras.menu);
     document.querySelectorAll(".intro-code p").forEach((el,i)=>{if(extras.code?.[i])el.innerHTML=extras.code[i]});
@@ -121,8 +121,8 @@
     const a=c.about;set("#about .eyebrow",a[0]);set("#about h2",a[1]);set("#about .why-copy>p:not(.eyebrow)",a[2]);setMany("#about .why-points small",a.slice(3));
     const ct=c.contact;set("#contact .eyebrow",ct[0]);set("#contact h2",ct[1]);set("#contact>p:not(.eyebrow)",ct[2]);set("#contact .btn",ct[3]);set("#contact>small",ct[4]);
     set(".footer-brand-head span",c.footer[0]);set(".footer-copyright",c.footer[1]);const legal=document.querySelectorAll(".footer-legal a");if(legal[0])legal[0].textContent=c.footer[2];if(legal[1])legal[1].textContent=c.footer[3];if(legal[2])legal[2].textContent=c.footer[4];
-    const meta=document.querySelector('meta[name="description"]');if(meta)meta.content=lang==="de"?"Panta Digital Studio entwickelt individuelle Websites, Anwendungen und Geschäftssysteme.":lang==="sr"?"Panta Digital Studio izrađuje web sajtove, aplikacije i poslovne sisteme po meri.":"Panta Digital Studio builds custom websites, applications and business systems.";
-    document.title=lang==="de"?"Panta Digital Studio — Websites, Apps & Geschäftssysteme":lang==="sr"?"Panta Digital Studio — Web sajtovi, aplikacije i poslovni sistemi":"Panta Digital Studio — Websites, Apps & Business Systems";
+    const meta=document.querySelector('meta[name="description"]');if(meta)meta.content=lang==="de"?"Torlac Solutions entwickelt individuelle Websites, Anwendungen und Geschäftssysteme.":lang==="sr"?"Torlac Solutions izrađuje web sajtove, aplikacije i poslovne sisteme po meri.":"Torlac Solutions builds custom websites, applications and business systems.";
+    document.title=lang==="de"?"Torlac Solutions — Websites, Apps & Geschäftssysteme":lang==="sr"?"Torlac Solutions — Web sajtovi, aplikacije i poslovni sistemi":"Torlac Solutions — Websites, Apps & Business Systems";
   }
   window.PantaHomeI18n={apply};
 })();
