@@ -1,142 +1,30 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Panta Studios — websites, applications and custom digital products by Milos Pantic.">
-  <meta name="theme-color" content="#f4f0e8">
-  <title>Panta Studios — Digital products by Milos Pantic</title>
-  <link rel="icon" href="./public/logo/panta-portal-ivory.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="./public/logo/apple-touch-icon.png">
-  <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Panta Studios home">
-      <img src="./public/logo/panta-portal-ivory.svg" alt="" class="brand-logo">
-      <span><strong>PANTA</strong><small>STUDIOS</small></span>
-    </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
-    <nav id="main-nav" class="nav-links" aria-label="Main navigation">
-      <a href="#top" data-i18n="nav.home">Home</a>
-      <a href="#projects" data-i18n="nav.projects">Projects</a>
-      <a href="#services" data-i18n="nav.services">Services</a>
-      <a href="#about" data-i18n="nav.about">About</a>
-      <a class="nav-cta" href="#contact" data-i18n="nav.contact">Contact</a>
-    </nav>
-    <div class="language-switch" aria-label="Language options">
-      <button type="button" data-lang="en">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="sr">SR</button>
-    </div>
-  </header>
-
-  <main id="top">
-    <section class="hero section">
-      <div class="hero-code-bg" aria-hidden="true">
-        <pre><code>const idea = understand(business);
-const product = design(idea, { clear: true });
-
-async function buildSolution() {
-  const workflow = await simplify(process);
-  return launch(workflow);
-}
-
-&lt;DigitalProduct
-  useful
-  responsive
-  builtFor="real work"
-/&gt;
-
-if (problem.isRepetitive) {
-  automate(problem);
-}
-
-PantaStudios.create({
-  strategy,
-  design,
-  development
-});</code></pre>
-      </div>
-      <div class="hero-copy" data-reveal>
-        <p class="eyebrow" data-i18n="hero.kicker">Websites · Apps · Business systems</p>
-        <h1 data-i18n="hero.title">Digital tools that make business easier to run.</h1>
-        <p class="intro" data-i18n="hero.text">I design and build websites, web applications and custom software around the way your business actually works.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#projects" data-i18n="hero.projects">Explore selected work</a>
-          <a class="btn text-btn" href="#contact" data-i18n="hero.start">Tell me about your project <span>↗</span></a>
-        </div>
-        <div class="hero-trust">
-          <span data-i18n="hero.trust1">Hospitality</span><span data-i18n="hero.trust2">Tourism</span><span data-i18n="hero.trust3">Business operations</span>
-        </div>
-      </div>
-      <div class="hero-visual" data-reveal aria-label="Preview of custom digital products">
-        <div class="portal-lines" aria-hidden="true"><span></span><span></span></div>
-        <div class="alpen-laptop" aria-label="Homepage of the Flachauer Alpenchalets website shown on a laptop">
-          <div class="alpen-laptop-screen">
-            <img class="alpen-original-hero" src="./public/projects/alpenchalets-desktop-hero.png" alt="Original desktop hero of the Flachauer Alpenchalets website">
-          </div>
-          <div class="alpen-laptop-base"><i></i></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section projects-section">
-      <div class="section-heading" data-reveal>
-        <div><p class="eyebrow" data-i18n="projects.label">Selected work</p><h2 data-i18n="projects.title">Built for real work, not just for show.</h2></div>
-        <p data-i18n="projects.lead">Each project begins with a practical problem and ends with a product people can use with confidence.</p>
-      </div>
-
-      <article class="featured-project clickable-project" data-reveal data-project-href="./flachauer-gutshof.html" role="link" tabindex="0" aria-label="Open Flachauer Gutshof case study">
-        <div class="project-preview restaurant-preview">
-          <div class="browser-bar"><span></span><span></span><span></span><small>Gutshof Gruppenbestellung</small></div>
-          <div class="app-shell">
-            <aside><b>FG</b><i></i><i></i><i></i></aside>
-            <div class="app-content"><small>GRUPPENBESTELLUNG</small><h3>Abendessen</h3><div class="app-stats"><span><b>24</b> Gäste</span><span><b>19</b> Bestellt</span><span><b>5</b> Offen</span></div><div class="app-list"><i></i><i></i><i></i></div></div>
-          </div>
-        </div>
-        <div class="project-info">
-          <p class="project-type" data-i18n="project1.type">Restaurant operations · PWA</p>
-          <h3>Flachauer Gutshof</h3>
-          <p data-i18n="project1.text">A group ordering system that turns QR orders into clear participant overviews, kitchen lists and PDF reports.</p>
-          <ul class="outcomes"><li data-i18n="project1.outcome1">Less manual coordination</li><li data-i18n="project1.outcome2">One clear workflow from guest to kitchen</li><li data-i18n="project1.outcome3">Works on every device</li></ul>
-          <a class="project-link" href="./flachauer-gutshof.html" data-i18n="projects.case">Read the case study <span>↗</span></a>
-        </div>
-      </article>
-
-      <div class="project-pair">
-        <article class="project-card clickable-project" data-reveal data-project-href="./alpenchalets-flachau.html" role="link" tabindex="0" aria-label="Open Alpenchalets Flachau case study">
-          <div class="project-preview chalet-preview"><div class="chalet-nav">ALPENCHALETS <span>Book your stay</span></div><div class="mountains"><i></i><i></i><i></i></div><div class="chalet-copy"><small>FLACHAU, AUSTRIA</small><strong>Your private place<br>in the Alps.</strong></div></div>
-          <div class="project-info"><p class="project-type" data-i18n="project2.type">Tourism · Premium website</p><h3>Alpenchalets Flachau</h3><p data-i18n="project2.text">A multilingual website designed to build trust quickly and guide guests toward direct bookings.</p><a class="project-link" href="./alpenchalets-flachau.html" data-i18n="projects.case">Read the case study <span>↗</span></a></div>
-        </article>
-        <article class="project-card clickable-project" data-reveal data-project-href="./farm-workforce-revenue.html" role="link" tabindex="0" aria-label="Open Farm Management System case study">
-          <div class="project-preview farm-preview"><div class="farm-head"><span>Season overview</span><b>2026</b></div><div class="farm-total"><small>Net result</small><strong>€28,460</strong><em>+14.2%</em></div><div class="farm-bars"><i style="--h:42%"></i><i style="--h:68%"></i><i style="--h:56%"></i><i style="--h:88%"></i><i style="--h:74%"></i></div></div>
-          <div class="project-info"><p class="project-type" data-i18n="project3.type">Agriculture · Business software</p><h3 data-i18n="project3.title">Farm Management System</h3><p data-i18n="project3.text">A mobile-first application for workers, wages, tasks, costs, revenue and seasonal reporting.</p><a class="project-link" href="./farm-workforce-revenue.html" data-i18n="projects.case">Read the case study <span>↗</span></a></div>
-        </article>
-      </div>
-    </section>
-
-    <section id="services" class="section services-section">
-      <div class="section-heading" data-reveal><div><p class="eyebrow" data-i18n="services.label">What I do</p><h2 data-i18n="services.title">From a rough idea to a useful product.</h2></div><p data-i18n="services.lead">One partner for product thinking, design, development and launch.</p></div>
-      <div class="service-list">
-        <article data-reveal><span>01</span><div><h3 data-i18n="service1.title">Business websites</h3><p data-i18n="service1.text">Fast, distinctive websites that build trust and turn visits into direct inquiries.</p></div><b>↗</b></article>
-        <article data-reveal><span>02</span><div><h3 data-i18n="service2.title">Web applications</h3><p data-i18n="service2.text">Installable applications for phones and computers, without app-store friction.</p></div><b>↗</b></article>
-        <article data-reveal><span>03</span><div><h3 data-i18n="service3.title">Custom business systems</h3><p data-i18n="service3.text">Ordering, records, calculations, administration and reporting shaped around your workflow.</p></div><b>↗</b></article>
-      </div>
-    </section>
-
-    <section id="about" class="section about-section">
-      <div class="about-mark" aria-hidden="true"><img src="./public/logo/panta-portal-ivory.svg" alt=""></div>
-      <div class="about-copy" data-reveal><p class="eyebrow" data-i18n="about.label">About</p><h2 data-i18n="about.title">Close to the business. Open to the world.</h2><p data-i18n="about.text">I’m Milos Pantic, an independent full-stack developer working internationally. I help hospitality, tourism and growing businesses replace manual work with clear digital products.</p><div class="about-facts"><span><strong>WORLDWIDE</strong><small data-i18n="about.point1">Available for international projects</small></span><span><strong>EN / DE / SR</strong><small data-i18n="about.point2">Projects in three languages</small></span><span><strong>01 → ∞</strong><small data-i18n="about.point3">From first idea to ongoing support</small></span></div></div>
-    </section>
-
-    <section id="contact" class="contact-section" data-reveal>
-      <p class="eyebrow" data-i18n="contact.label">Start a conversation</p>
-      <h2 data-i18n="contact.title">Have a business problem worth solving?</h2>
-      <p data-i18n="contact.text">Tell me where the work feels slow, complicated or repetitive. We’ll find the simplest useful solution.</p>
-      <a class="btn light" href="mailto:hello@milospantic.dev"><span data-i18n="contact.email">hello@milospantic.dev</span><b>↗</b></a>
-    </section>
-  </main>
-
-  <footer class="site-footer"><a class="footer-mark" href="#top" aria-label="Panta Studios — back to top"><img src="./public/logo/panta-portal-ivory.svg" alt="Panta Studios"></a></footer>
-  <script src="./script.js"></script>
-</body>
-</html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Panta Digital Studio builds custom websites, applications and business systems."><title>Panta Digital Studio — Websites, Apps & Business Systems</title><script>try{if(location.hash||localStorage.getItem("panta-digital-intro-seen")==="1"||sessionStorage.getItem("panta-intro-seen")==="1")document.documentElement.classList.add("skip-site-intro")}catch(e){if(location.hash)document.documentElement.classList.add("skip-site-intro")}</script><link rel="icon" href="./public/logo/panta-portal-ivory.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css?v=portfolio-9"></head>
+<body class="clarity-home">
+<div class="site-intro" aria-hidden="true"><div class="intro-orb intro-orb-one"></div><div class="intro-orb intro-orb-two"></div><div class="intro-code-rain">01&nbsp; const solution = design + code + purpose;&nbsp; 10&nbsp; build();&nbsp; 01&nbsp; launch();&nbsp; 10&nbsp; improve();</div><div class="intro-sequence"><div class="intro-logo-stage"><img src="./public/logo/panta-portal-ivory.svg" alt=""><strong>PANTA DIGITAL STUDIO</strong></div><div class="intro-terminal"><div class="intro-terminal-bar"><span></span><span></span><span></span><small>panta-digital-studio.js</small></div><div class="intro-code"><p><i>const</i> studio = <b>"Panta Digital Studio"</b>;</p><p><i>const</i> approach = <b>"practical solutions"</b>;</p><p>studio.<em>turnIdeasIntoResults</em>();</p></div><div class="intro-signature"><div><strong>PANTA DIGITAL STUDIO</strong><small>Practical digital solutions for real business needs.</small></div></div></div></div></div>
+<header class="site-header"><a class="brand" href="#top"><img src="./public/logo/panta-portal-ivory.svg" alt="" class="brand-logo"><span><strong>PANTA DIGITAL</strong><small>STUDIO</small></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button><nav id="main-nav" class="nav-links"><a href="#projects">Work</a><a href="#services">Capabilities</a><a href="#about">About</a><a class="nav-cta" href="#contact">Start a project <span>↗</span></a></nav><div class="language-switch" aria-label="Language"><button type="button" data-lang="sr">SR</button><button type="button" data-lang="en">EN</button><button type="button" data-lang="de">DE</button></div></header>
+<main id="top">
+<section class="clarity-hero"><div class="clarity-hero-copy" data-reveal><p class="eyebrow">WEB SAJTOVI · APLIKACIJE · POSLOVNI SISTEMI</p><h1>Digitalna rešenja oblikovana prema vašem poslovanju.</h1><p class="clarity-lead">Razvijam web sajtove, aplikacije i poslovne sisteme po meri — od prve ideje do gotovog rešenja koje pojednostavljuje rad i donosi konkretan rezultat.</p><div class="hero-actions"><a class="btn primary" href="#services">Pogledajte šta mogu da napravim</a><a class="btn text-btn" href="#contact">Predložite ideju ili saradnju <span>↗</span></a></div><div class="clarity-trust"><span><b>01</b><small>Rešenja po meri</small></span><span><b>02</b><small>Direktna saradnja</small></span><span><b>03</b><small>Podrška nakon objave</small></span></div></div><div class="clarity-hero-demo solution-demo" data-reveal><div class="demo-label"><span>CUSTOM DIGITAL SOLUTIONS</span><b>WHAT I CAN BUILD</b></div><div class="solution-builder"><div class="builder-grid"></div><div class="builder-head"><div class="builder-brand"><img src="./public/logo/panta-portal-ivory.svg" alt=""><span><strong>PANTA DIGITAL STUDIO</strong><small>CUSTOM SYSTEM ARCHITECT</small></span></div><i>ONLINE</i></div><div class="builder-core"><small>YOUR BUSINESS</small><strong>ONE CONNECTED<br>SOLUTION</strong><em>Built around your workflow</em></div><div class="builder-modules"><span><i>01</i><b>Websites</b></span><span><i>02</i><b>Applications</b></span><span><i>03</i><b>POS Systems</b></span><span><i>04</i><b>Hotel Operations</b></span><span><i>05</i><b>Farm Management</b></span><span><i>06</i><b>Automation</b></span></div><div class="builder-live"><span><i></i> System ready to scale</span><div><b style="--w:72%"></b><b style="--w:88%"></b><b style="--w:61%"></b></div></div></div><p>One studio. Any digital solution your business needs. Designed around your workflow — not around a template.</p></div></section>
+<section id="services" class="clarity-section clarity-services"><div class="clarity-heading" data-reveal><div><p class="eyebrow">ŠTA MOGU DA URADIM ZA VAS</p><h2>Od jednostavnog sajta do kompletnog poslovnog sistema.</h2></div><p>Prikazane usluge su samo polazna tačka. Svako rešenje mogu da prilagodim vašoj ideji, gostima, zaposlenima i načinu rada.</p></div><div class="capability-grid">
+<article data-reveal><span>01</span><h3>Web sajtovi</h3><p>Moderni sajtovi za hotele, apartmane, restorane, zanatlije i firme.</p><ul><li>Više jezika</li><li>SEO i brzina</li><li>Kontakt i direktni upiti</li></ul></article>
+<article data-reveal><span>02</span><h3>Rezervacije i poručivanje</h3><p>Jednostavan put od posetioca do rezervacije, porudžbine ili upita.</p><ul><li>QR poručivanje</li><li>Forme za rezervaciju</li><li>WhatsApp i e-mail</li></ul></article>
+<article data-reveal><span>03</span><h3>Web aplikacije</h3><p>Aplikacije koje rade na telefonu i računaru bez komplikovane instalacije.</p><ul><li>Korisnički nalozi</li><li>Admin panel</li><li>Rad na svakom uređaju</li></ul></article>
+<article data-reveal><span>04</span><h3>Poslovni sistemi</h3><p>Evidencija i izveštaji prilagođeni načinu na koji vaša firma radi.</p><ul><li>Radnici i zadaci</li><li>Troškovi i prihodi</li><li>PDF izveštaji</li></ul></article>
+<article data-reveal><span>05</span><h3>Automatizacija</h3><p>Ponavljajući ručni posao pretvaram u brži digitalni proces.</p><ul><li>Automatske kalkulacije</li><li>Dokumenti i QR kodovi</li><li>Obaveštenja i e-mailovi</li></ul></article>
+<article data-reveal><span>06</span><h3>Artikli, cene i izveštaji</h3><p>Sistemi koji vode artikle, automatski obračunavaju cene i pripremaju dokumente.</p><ul><li>Artikli, cenovnici i zalihe</li><li>Ponude, računi i obračuni</li><li>PDF izveštaji za štampu</li></ul></article>
+<article data-reveal><span>07</span><h3>Kasa-sistemi</h3><p>Brza i pregledna prodaja za restorane, prodavnice i druge uslužne delatnosti.</p><ul><li>Naplata i pregled porudžbina</li><li>Smene, promet i stanje kase</li><li>Štampa računa i izveštaja</li></ul></article>
+<article data-reveal><span>08</span><h3>Čišćenje smeštaja</h3><p>Aplikacije za organizaciju sobarica, apartmana i dnevnih zadataka čišćenja.</p><ul><li>Raspored po sobama i objektima</li><li>Status: čeka, u toku, završeno</li><li>Fotografije, napomene i kontrola</li></ul></article>
+<article data-reveal><span>09</span><h3>Hausmajstori i održavanje</h3><p>Prijava i raspodela kvarova za hotele, apartmane i poslovne objekte.</p><ul><li>Zadaci po radniku i prioritetu</li><li>Fotografije kvara i popravke</li><li>Istorija radova i troškova</li></ul></article>
+<article data-reveal><span>10</span><h3>Online prodavnice</h3><p>Moderne internet prodavnice koje kupcima olakšavaju pronalaženje, naručivanje i kupovinu proizvoda.</p><ul><li>Katalog, kategorije i pretraga</li><li>Korpa, porudžbine i plaćanje</li><li>Upravljanje proizvodima i zalihama</li></ul></article>
+<article data-reveal><span>11</span><h3>Testiranje softvera</h3><p>Proveravam sajtove, aplikacije i poslovne sisteme kako bi bili pouzdani, jasni i spremni za korisnike.</p><ul><li>Funkcionalno i korisničko testiranje</li><li>Provera na telefonu i računaru</li><li>Prijava grešaka i jasni izveštaji</li></ul></article>
+<article data-reveal><span>12</span><h3>Održavanje i podrška</h3><p>Pomažem sa izmenama, domenom, hostingom i daljim razvojem.</p><ul><li>Redovne izmene</li><li>Tehnička podrška</li><li>Dalje nadogradnje</li></ul></article></div></section>
+<section class="farm-focus hospitality-focus" data-reveal><div class="farm-focus-copy"><p class="eyebrow">HOSPITALITY OPERATIONS</p><h2>Cleaning, maintenance and accommodation tasks in one system.</h2><p class="farm-focus-lead">I build applications that give hotels and accommodation teams a clear daily overview — from room cleaning and inspections to faults, priorities and completed work.</p><div class="farm-focus-points"><span>Rooms, cleaners and daily schedules</span><span>Fault reports with photos and priorities</span><span>Maintenance tasks and responsible staff</span><span>Live status, history and management reports</span></div><a class="project-link" href="./hospitality-operations.html?v=11">View the full project ↗</a></div><div class="farm-focus-dashboard" aria-hidden="true"><div class="focus-top"><small>PROPERTY CONTROL</small><b>Live overview</b></div><div class="focus-metric"><span><small>Rooms ready</small><strong>24</strong></span><span><small>Tasks completed</small><strong>87%</strong></span></div><div class="focus-chart"><i style="--h:38%"></i><i style="--h:54%"></i><i style="--h:47%"></i><i style="--h:72%"></i><i style="--h:64%"></i><i style="--h:91%"></i></div><div class="focus-status"><span><i></i> Housekeeping team active</span><b>12/14</b></div></div></section>
+<section id="projects" class="clarity-section clarity-projects"><div class="clarity-heading" data-reveal><div><p class="eyebrow">STVARNI PRIMERI</p><h2>Ne samo kako izgleda — već šta rešava.</h2></div><p>Svaki projekat je nastao iz konkretnog poslovnog problema.</p></div>
+<article class="result-project" data-reveal><div class="result-visual restaurant-preview grouporder-real-preview"><div class="browser-bar"><span></span><span></span><span></span><small>GroupOrder</small></div><img class="grouporder-project-image" src="./public/projects/grouporder-admin.png" alt="GroupOrder administration dashboard"></div><div class="result-copy"><p class="project-type">RESTORAN · DIGITALNO PORUČIVANJE</p><h3>GroupOrder</h3><p>Gosti biraju jela preko ličnog QR linka. Restoran automatski dobija pregled porudžbina, listu za kuhinju i PDF izveštaj.</p><div class="result-list"><span>Manje poziva i ručnog zapisivanja</span><span>Tačne porudžbine za svakog gosta</span><span>Spremna lista za kuhinju</span></div><a class="project-link" href="./flachauer-gutshof.html?v=11">Pogledajte ceo projekat ↗</a></div></article>
+<article class="result-project reverse" data-reveal><div class="result-visual chalet-result"><div class="browser-bar"><span></span><span></span><span></span><small>Alpenchalets Flachauer Gutshof</small></div><img src="./public/projects/alpenchalets-flachauer-gutshof.png" alt="Alpenchalets Flachauer Gutshof website"></div><div class="result-copy"><p class="project-type">TURIZAM · WEB SAJT</p><h3>Alpenchalets Flachauer Gutshof</h3><p>Višejezični sajt koji predstavlja smeštaj i vodi gosta direktno ka rezervaciji ili upitu.</p><div class="result-list"><span>Premium prezentacija smeštaja</span><span>Jasni direktni upiti</span><span>Odlično iskustvo na telefonu</span></div><a class="project-link" href="./alpenchalets-flachau.html?v=11">Pogledajte ceo projekat ↗</a></div></article>
+<article class="result-project" data-reveal><div class="result-visual farm-preview agriculture-photo"><div class="farm-overlay"><div class="farm-head"><span>Pregled sezone</span><b>2026</b></div><div class="farm-total"><small>Neto rezultat</small><strong>€28,460</strong><em>+14.2%</em></div><div class="farm-bars"><i style="--h:42%"></i><i style="--h:68%"></i><i style="--h:56%"></i><i style="--h:88%"></i><i style="--h:74%"></i></div></div></div><div class="result-copy"><p class="project-type">POLJOPRIVREDA · POSLOVNI SISTEM</p><h3>Upravljanje radnicima i prihodima</h3><p>Mobilni sistem za radnike, dnevnice, zadatke, troškove, prihode i sezonske izveštaje.</p><div class="result-list"><span>Pregled radnika i dnevnica</span><span>Automatski obračun troškova</span><span>Jasni sezonski izveštaji</span></div><a class="project-link" href="./farm-workforce-revenue.html?v=11">Pogledajte ceo projekat ↗</a></div></article></section>
+<section id="process" class="clarity-section clarity-process"><div class="clarity-heading" data-reveal><div><p class="eyebrow">JEDNOSTAVNA SARADNJA</p><h2>Od vaše ideje do gotovog rešenja.</h2></div><p>Uvek znate šta radimo, koliko košta i šta sledi.</p></div><div class="process-grid"><article><b>01</b><h3>Kratak razgovor</h3><p>Objasnite problem, cilj i sadašnji način rada.</p></article><article><b>02</b><h3>Jasna ponuda</h3><p>Dobijate predlog, rok i dogovorenu cenu.</p></article><article><b>03</b><h3>Izrada i korekcije</h3><p>Vidite konkretan prikaz i zajedno dorađujemo detalje.</p></article><article><b>04</b><h3>Objava i podrška</h3><p>Pokrećem projekat i ostajem dostupan.</p></article></div></section>
+<section id="about" class="clarity-section clarity-why"><div class="panta-portrait" data-reveal><div class="panta-portrait__image"><img src="./public/people/milos-pantic-about.png" alt="Miloš Pantić — Panta at work"></div><div class="panta-portrait__caption"><span>FOUNDER &amp; DEVELOPER</span><strong>MILOŠ “PANTA” PANTIĆ</strong></div></div><div class="why-copy" data-reveal><p class="eyebrow">MEET PANTA</p><h2>One partner — from the first idea to a working product.</h2><p>I am Miloš Pantić — most people call me Panta. I personally plan, design and develop every project, so you work directly with the person building your solution. From premium websites and booking tools to POS systems, operations, maintenance and custom automation, I turn ideas and everyday business challenges into clear, reliable digital products. I am open to new ideas, long-term partnerships and ambitious custom projects.</p><div class="why-points"><span><b>✓</b><small>Direct, transparent collaboration</small></span><span><b>✓</b><small>German, English and Serbian</small></span><span><b>✓</b><small>Custom-built around your workflow</small></span><span><b>✓</b><small>Support after launch</small></span></div></div></section>
+<section id="contact" class="clarity-contact" data-reveal><p class="eyebrow">IDEJA, PROJEKAT ILI SARADNJA</p><h2>Razgovarajmo o rešenju koje odgovara baš vašim potrebama.</h2><p>Opišite mi svoju ideju, poslovni problem ili predlog za saradnju. Zajedno možemo da osmislimo pravo digitalno rešenje.</p><a class="btn light" href="mailto:miloshpanta@gmail.com?subject=Upit%20za%20projekat%20ili%20saradnju">Pošaljite upit <b>↗</b></a><small>Bez obaveze · Direktan odgovor · Jasna ponuda</small></section>
+</main><footer class="site-footer contact-footer"><div class="footer-brand"><div class="footer-brand-head"><img src="./public/logo/panta-portal-ivory.svg" alt="Panta Digital Studio logo"><div><strong>PANTA DIGITAL STUDIO</strong><span data-i18n="footer.tagline">Practical digital solutions</span></div></div></div><div class="footer-contact" aria-label="Contact"><a href="mailto:miloshpanta@gmail.com" aria-label="Email Miloš Pantić"><span class="contact-icon"><img src="./public/icons/email.svg" alt=""></span><small>E-mail</small></a><a href="viber://chat?number=%2B38162460349" aria-label="Contact via Viber"><span class="contact-icon"><img src="./public/icons/viber.svg" alt=""></span><small>Viber</small></a><a href="https://wa.me/436677622191" aria-label="Contact via WhatsApp"><span class="contact-icon"><img src="./public/icons/whatsapp.svg" alt=""></span><small>WhatsApp</small></a></div><div class="footer-legal"><small class="footer-copyright" data-i18n="footer.copyright">© 2026 Panta Digital Studio · Miloš Pantić. All rights reserved.</small><span><a href="./impressum.html" data-i18n="footer.legal">Legal notice</a><a href="./datenschutz.html" data-i18n="footer.privacy">Privacy</a><a href="#top" data-i18n="footer.top">Back to top ↑</a></span></div></footer><script src="./home-i18n.js?v=11"></script><script src="./premium-experience.js?v=3"></script><script src="./business-preview.js?v=1"></script><script src="./script.js?v=portfolio-10"></script></body></html>

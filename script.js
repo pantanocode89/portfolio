@@ -10,6 +10,10 @@ const translations = {
     "project1.outcome3": "Works on every device",
     "services.lead": "One partner for product thinking, design, development and launch.",
     "footer.top": "Back to top ↑",
+    "footer.tagline": "Practical digital solutions",
+    "footer.copyright": "© 2026 Panta Digital Studio · Miloš Pantić. All rights reserved.",
+    "footer.legal": "Legal notice",
+    "footer.privacy": "Privacy",
     "intro.skip": "Skip",
     "case.label": "Case Study",
     "case.businessValue": "Business value",
@@ -122,7 +126,8 @@ const translations = {
     "fw.feature5": "PDF and mobile reports",
     "fw.feature6": "Support for different crops and activities",
     "fw.technology": "Progressive Web App, mobile-first interface, reports, structured data and installable app experience.",
-    "fw.result": "The farm gets a clearer overview of workers, costs, income and seasonal results, with reports that can be used on phone or computer."
+    "fw.result": "The farm gets a clearer overview of workers, costs, income and seasonal results, with reports that can be used on phone or computer.",
+    "ho.category":"Hospitality software","ho.heading":"Hospitality Operations","ho.title":"Housekeeping &amp; Maintenance Management","ho.intro":"One clear system for room cleaning, inspections, maintenance requests, priorities and completed work.","ho.tag1":"Housekeeping","ho.tag2":"Maintenance","ho.value":"Designed to give hotels and accommodation teams a reliable live overview while reducing calls, paper lists and missed tasks.","ho.problem":"Cleaning and maintenance teams often coordinate through calls, paper lists and scattered messages, making priorities and room status difficult to follow.","ho.solution":"A mobile-first operations system that connects rooms, employees, tasks, faults, photos and live status in one daily workflow.","ho.feature1":"Room cleaning schedules and status","ho.feature2":"Maintenance requests with photos and priority","ho.feature3":"Tasks assigned to responsible employees","ho.feature4":"Inspections, notes and completion history","ho.feature5":"Live overview for management","ho.feature6":"Reports for rooms, work and response times","ho.technology":"Responsive Progressive Web App, mobile-first task interface, role-based views, structured records, photo documentation and reports.","ho.result":"Teams know what must be done, who is responsible and which rooms are ready, while management gets a clear record of daily operations."
   },
   de: {
     "hero.title": "Digitale Lösungen, die den Geschäftsalltag einfacher machen.",
@@ -135,6 +140,10 @@ const translations = {
     "project1.outcome3": "Funktioniert auf jedem Gerät",
     "services.lead": "Ein Partner für Produktplanung, Design, Entwicklung und Launch.",
     "footer.top": "Nach oben ↑",
+    "footer.tagline": "Praktische digitale Lösungen",
+    "footer.copyright": "© 2026 Panta Digital Studio · Miloš Pantić. Alle Rechte vorbehalten.",
+    "footer.legal": "Impressum",
+    "footer.privacy": "Datenschutz",
     "intro.skip": "&Uuml;berspringen",
     "case.label": "Fallstudie",
     "case.businessValue": "Gesch&auml;ftlicher Nutzen",
@@ -247,7 +256,8 @@ const translations = {
     "fw.feature5": "PDF- und mobile Berichte",
     "fw.feature6": "Unterst&uuml;tzung f&uuml;r verschiedene Kulturen und T&auml;tigkeiten",
     "fw.technology": "Progressive Web App, mobile-first Interface, Berichte, strukturierte Daten und installierbare App-Erfahrung.",
-    "fw.result": "Der Betrieb erh&auml;lt einen klareren &Uuml;berblick &uuml;ber Arbeiter, Kosten, Einnahmen und Saisonergebnisse."
+    "fw.result": "Der Betrieb erh&auml;lt einen klareren &Uuml;berblick &uuml;ber Arbeiter, Kosten, Einnahmen und Saisonergebnisse.",
+    "ho.category":"Software für Beherbergungsbetriebe","ho.heading":"Hospitality Operations","ho.title":"Reinigungs- &amp; Instandhaltungsmanagement","ho.intro":"Ein übersichtliches System für Zimmerreinigung, Kontrollen, Störungsmeldungen, Prioritäten und erledigte Arbeiten.","ho.tag1":"Reinigung","ho.tag2":"Haustechnik","ho.value":"Für Hotels und Unterkunftsteams, die einen zuverlässigen Live-Überblick benötigen und Anrufe, Papierlisten sowie vergessene Aufgaben reduzieren möchten.","ho.problem":"Reinigungs- und Haustechnikteams koordinieren sich häufig über Anrufe, Papierlisten und verstreute Nachrichten. Dadurch sind Prioritäten und Zimmerstatus schwer nachzuverfolgen.","ho.solution":"Ein mobil optimiertes Betriebssystem, das Zimmer, Mitarbeiter, Aufgaben, Störungen, Fotos und Live-Status in einem täglichen Ablauf verbindet.","ho.feature1":"Reinigungspläne und Zimmerstatus","ho.feature2":"Störungsmeldungen mit Fotos und Priorität","ho.feature3":"Aufgaben für verantwortliche Mitarbeiter","ho.feature4":"Kontrollen, Notizen und Verlauf","ho.feature5":"Live-Übersicht für die Leitung","ho.feature6":"Berichte zu Zimmern, Arbeiten und Reaktionszeiten","ho.technology":"Responsive Progressive Web App, mobile Aufgabenansicht, rollenbasierte Bereiche, strukturierte Einträge, Fotodokumentation und Berichte.","ho.result":"Das Team weiß, was zu erledigen ist, wer verantwortlich ist und welche Zimmer bereit sind. Die Leitung erhält eine klare Dokumentation des täglichen Betriebs."
   },
   sr: {
     "hero.title": "Digitalni alati koji olakšavaju svakodnevno poslovanje.",
@@ -260,6 +270,10 @@ const translations = {
     "project1.outcome3": "Radi na svakom uređaju",
     "services.lead": "Jedan partner za planiranje proizvoda, dizajn, razvoj i lansiranje.",
     "footer.top": "Nazad na vrh ↑",
+    "footer.tagline": "Praktična digitalna rešenja",
+    "footer.copyright": "© 2026 Panta Digital Studio · Miloš Pantić. Sva prava zadržana.",
+    "footer.legal": "Pravni podaci",
+    "footer.privacy": "Privatnost",
     "intro.skip": "Presko&ccaron;i",
     "case.label": "Studija slu&ccaron;aja",
     "case.businessValue": "Poslovna vrednost",
@@ -372,7 +386,8 @@ const translations = {
     "fw.feature5": "PDF i mobilni izve&scaron;taji",
     "fw.feature6": "Podr&scaron;ka za razli&ccaron;ite kulture i aktivnosti",
     "fw.technology": "Progressive Web App, mobile-first interfejs, izve&scaron;taji, strukturirani podaci i iskustvo aplikacije koja se instalira.",
-    "fw.result": "Gazdinstvo dobija jasniji pregled radnika, tro&scaron;kova, prihoda i sezonskih rezultata, uz izve&scaron;taje na telefonu ili ra&ccaron;unaru."
+    "fw.result": "Gazdinstvo dobija jasniji pregled radnika, tro&scaron;kova, prihoda i sezonskih rezultata, uz izve&scaron;taje na telefonu ili ra&ccaron;unaru.",
+    "ho.category":"Softver za smeštaj","ho.heading":"Organizacija smeštaja","ho.title":"Upravljanje čišćenjem i održavanjem","ho.intro":"Jedan pregledan sistem za čišćenje soba, kontrole, prijavu kvarova, prioritete i završene radove.","ho.tag1":"Čišćenje","ho.tag2":"Održavanje","ho.value":"Namenjeno hotelima i timovima za smeštaj kojima je potreban pouzdan pregled uživo, uz manje poziva, papirnih spiskova i propuštenih zadataka.","ho.problem":"Timovi za čišćenje i održavanje često se dogovaraju pozivima, papirnim spiskovima i razbacanim porukama, pa je teško pratiti prioritete i status soba.","ho.solution":"Mobilni poslovni sistem koji povezuje sobe, zaposlene, zadatke, kvarove, fotografije i statuse u jedan dnevni proces.","ho.feature1":"Raspored čišćenja i status soba","ho.feature2":"Prijava kvarova sa fotografijama i prioritetom","ho.feature3":"Dodeljivanje zadataka odgovornim radnicima","ho.feature4":"Kontrole, napomene i istorija radova","ho.feature5":"Pregled uživo za upravljanje","ho.feature6":"Izveštaji o sobama, radovima i vremenu reakcije","ho.technology":"Responsive Progressive Web App, mobilni prikaz zadataka, korisničke uloge, strukturirana evidencija, fotografije i izveštaji.","ho.result":"Tim zna šta treba uraditi, ko je odgovoran i koje su sobe spremne, dok uprava dobija jasnu evidenciju svakodnevnog rada."
   }
 };
 
@@ -382,13 +397,31 @@ const skipIntro = document.querySelector(".intro-skip");
 const typedCode = document.getElementById("typed-code");
 const languageButtons = document.querySelectorAll("[data-lang]");
 
-if (intro) {
+const forceIntro = new URLSearchParams(window.location.search).get("intro") === "1";
+const introStorageKey = "panta-digital-intro-seen";
+const returningToSection = window.location.hash.length > 1;
+const introSeen = returningToSection || localStorage.getItem(introStorageKey) === "1" || sessionStorage.getItem("panta-intro-seen") === "1";
+if (intro && introSeen && !forceIntro) {
+  localStorage.setItem(introStorageKey, "1");
+  intro.remove();
+} else if (intro) {
+  localStorage.setItem(introStorageKey, "1");
   document.body.classList.add("intro-active");
+}
+
+if (returningToSection) {
+  const restoreRequestedSection = () => {
+    const section = document.querySelector(window.location.hash);
+    if (section) section.scrollIntoView({ block: "start" });
+  };
+  window.requestAnimationFrame(() => window.requestAnimationFrame(restoreRequestedSection));
+  window.addEventListener("load", () => window.setTimeout(restoreRequestedSection, 80), { once: true });
 }
 
 function setLanguage(language) {
   const selected = translations[language] ? language : "en";
   const copy = translations[selected];
+  window.PantaHomeI18n?.apply(selected);
 
   document.documentElement.lang = selected;
   localStorage.setItem("panta-studio-language", selected);
@@ -429,13 +462,14 @@ function typeHeroCode() {
 }
 
 function finishIntro() {
-  if (!intro || intro.classList.contains("is-hidden")) return;
-  intro.classList.add("is-hidden");
+  if (!intro || !intro.isConnected || intro.classList.contains("is-leaving")) return;
+  intro.classList.add("is-leaving");
   document.body.classList.remove("intro-active");
   typeHeroCode();
+  window.setTimeout(() => intro.remove(), 700);
 }
 
-const savedLanguage = localStorage.getItem("panta-studio-language") || "en";
+  const savedLanguage = localStorage.getItem("panta-studio-language") || "en";
 setLanguage(savedLanguage);
 
 const revealObserver = new IntersectionObserver(
@@ -456,11 +490,11 @@ languageButtons.forEach((button) => {
   button.addEventListener("click", () => setLanguage(button.dataset.lang));
 });
 
-if (intro) {
+if (intro && intro.isConnected) {
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     finishIntro();
   } else {
-    window.setTimeout(finishIntro, 2350);
+    window.setTimeout(finishIntro, 4300);
     intro.addEventListener("click", finishIntro);
   }
 } else {
@@ -479,51 +513,6 @@ window.addEventListener("keydown", (event) => {
     finishIntro();
   }
 });
-
-const homeMain = document.querySelector("main#top");
-const portfolioViews = ["top", "projects", "services", "about", "contact"];
-
-function showPortfolioView(view, updateHistory = false) {
-  if (!homeMain || !portfolioViews.includes(view)) return;
-
-  const sections = Array.from(homeMain.children).filter((element) => element.tagName === "SECTION");
-  sections.forEach((section) => {
-    const sectionView = section.classList.contains("hero") ? "top" : section.id;
-    section.hidden = view === "top" ? false : sectionView !== view;
-  });
-
-  document.body.dataset.portfolioView = view;
-  document.querySelectorAll("#main-nav a[href^='#']").forEach((link) => {
-    const active = link.getAttribute("href") === `#${view}`;
-    link.classList.toggle("is-active", active);
-    if (active) link.setAttribute("aria-current", "page");
-    else link.removeAttribute("aria-current");
-  });
-
-  if (updateHistory) {
-    const nextUrl = view === "top" ? `${location.pathname}${location.search}` : `#${view}`;
-    history.pushState({ portfolioView: view }, "", nextUrl);
-  }
-
-  window.scrollTo({ top: 0, behavior: "auto" });
-}
-
-if (homeMain) {
-  document.querySelectorAll('a[href^="#"]').forEach((link) => {
-    const view = link.getAttribute("href").slice(1) || "top";
-    if (!portfolioViews.includes(view)) return;
-    link.addEventListener("click", (event) => {
-      event.preventDefault();
-      showPortfolioView(view, true);
-    });
-  });
-
-  window.addEventListener("popstate", () => {
-    showPortfolioView(location.hash.slice(1) || "top");
-  });
-
-  showPortfolioView(location.hash.slice(1) || "top");
-}
 
 const menuToggle = document.querySelector(".menu-toggle");
 const mainNav = document.querySelector("#main-nav");
@@ -558,3 +547,54 @@ document.querySelectorAll("[data-project-href]").forEach((card) => {
     }
   });
 });
+
+const premiumHeader = document.querySelector(".clarity-home .site-header");
+const sectionNavLinks = document.querySelectorAll(".clarity-home .nav-links a[href^='#']");
+const syncPremiumNavigation = () => {
+  premiumHeader?.classList.toggle("is-compact", window.scrollY > 48);
+  let current = "";
+  let closestTop = -Infinity;
+  sectionNavLinks.forEach((link) => {
+    const section = document.querySelector(link.getAttribute("href"));
+    if (!section) return;
+    const top = section.getBoundingClientRect().top;
+    if (top <= 260 && top > closestTop) { closestTop = top; current = link.getAttribute("href"); }
+  });
+  if (!current && sectionNavLinks.length) {
+    const hashLink = Array.from(sectionNavLinks).find((link) => link.getAttribute("href") === window.location.hash);
+    if (hashLink) current = window.location.hash;
+  }
+  sectionNavLinks.forEach((link) => link.classList.toggle("is-current", link.getAttribute("href") === current));
+};
+window.addEventListener("scroll", syncPremiumNavigation, { passive: true });
+window.addEventListener("hashchange", syncPremiumNavigation);
+window.addEventListener("load", () => window.setTimeout(syncPremiumNavigation, 80));
+syncPremiumNavigation();
+sectionNavLinks.forEach((link) => link.addEventListener("click", () => {
+  sectionNavLinks.forEach((item) => item.classList.toggle("is-current", item === link));
+  window.setTimeout(syncPremiumNavigation, 450);
+}));
+
+const portfolioImages = document.querySelectorAll(".clarity-home .result-visual img");
+if (portfolioImages.length) {
+  const lightbox = document.createElement("div");
+  lightbox.className = "portfolio-lightbox";
+  lightbox.setAttribute("role", "dialog");
+  lightbox.setAttribute("aria-modal", "true");
+  lightbox.setAttribute("aria-label", "Project image preview");
+  lightbox.innerHTML = '<button type="button" aria-label="Close image">×</button><img alt="">';
+  document.body.appendChild(lightbox);
+  const lightboxImage = lightbox.querySelector("img");
+  const closeLightbox = () => { lightbox.classList.remove("is-open"); document.body.classList.remove("lightbox-open"); };
+  portfolioImages.forEach((image) => {
+    image.tabIndex = 0;
+    image.setAttribute("role", "button");
+    image.setAttribute("aria-label", `${image.alt || "Project image"} — enlarge`);
+    const open = () => { lightboxImage.src = image.currentSrc || image.src; lightboxImage.alt = image.alt; lightbox.classList.add("is-open"); document.body.classList.add("lightbox-open"); lightbox.querySelector("button").focus(); };
+    image.addEventListener("click", open);
+    image.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); open(); } });
+  });
+  lightbox.querySelector("button").addEventListener("click", closeLightbox);
+  lightbox.addEventListener("click", (event) => { if (event.target === lightbox) closeLightbox(); });
+  document.addEventListener("keydown", (event) => { if (event.key === "Escape") closeLightbox(); });
+}
