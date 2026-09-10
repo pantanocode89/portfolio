@@ -397,17 +397,10 @@ const skipIntro = document.querySelector(".intro-skip");
 const typedCode = document.getElementById("typed-code");
 const languageButtons = document.querySelectorAll("[data-lang]");
 
-const forceIntro = new URLSearchParams(window.location.search).get("intro") === "1";
-const introStorageKey = "panta-digital-intro-seen";
 const returningToSection = window.location.hash.length > 1;
-const introSeen = returningToSection || localStorage.getItem(introStorageKey) === "1" || sessionStorage.getItem("panta-intro-seen") === "1";
-if (intro && introSeen && !forceIntro) {
-  localStorage.setItem(introStorageKey, "1");
-  intro.remove();
-} else if (intro) {
-  localStorage.setItem(introStorageKey, "1");
-  document.body.classList.add("intro-active");
-}
+const returningFromProject = new URLSearchParams(window.location.search).get("from") === "project";
+if (intro && returningFromProject) intro.remove();
+else if (intro) document.body.classList.add("intro-active");
 
 if (returningToSection) {
   const restoreRequestedSection = () => {
@@ -492,7 +485,7 @@ languageButtons.forEach((button) => {
 
 if (intro && intro.isConnected) {
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    finishIntro();
+    window.setTimeout(finishIntro, 1800);
   } else {
     window.setTimeout(finishIntro, 4300);
     intro.addEventListener("click", finishIntro);
