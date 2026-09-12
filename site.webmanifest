@@ -1,0 +1,10 @@
+{
+  "name": "Torlac Solutions — Miloš Pantić",
+  "short_name": "Torlac Solutions",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0d0b",
+  "theme_color": "#0b0d0b",
+  "icons": [{"src":"./public/logo/panta-studio-icon.png","sizes":"512x512","type":"image/png"}]
+}

@@ -84,8 +84,8 @@ const translations = {
     "contact.title": "Have an idea or a business problem to solve?",
     "contact.text": "Tell me what you need. I will help turn it into a practical digital solution.",
     "contact.email": "Send an Email",
-    "footer.role": "Milos Pantic - Full Stack Developer",
-    "footer.credit": "Designed and developed by Milos Pantic.",
+    "footer.role": "Miloš Pantić — Full Stack Developer",
+    "footer.credit": "Designed and developed by Miloš Pantić.",
     "fg.category": "Restaurant software",
     "fg.title": "Group Menu Ordering System",
     "fg.intro": "A complete digital ordering system for restaurant groups, including QR access, participant ordering, administration, kitchen lists and PDF reports.",
@@ -168,7 +168,7 @@ const translations = {
     "nav.process": "Ablauf",
     "nav.contact": "Kontakt",
     "hero.kicker": "Websites &middot; Apps &middot; Gesch&auml;ftssysteme",
-    "hero.role": "Full Stack Developer",
+    "hero.role": "Full-Stack-Entwickler",
     "hero.text": "Ich entwickle moderne Websites, Webanwendungen und Unternehmenssoftware, die reale Gesch&auml;ftsprobleme l&ouml;sen.",
     "hero.projects": "Projekte ansehen",
     "hero.start": "Projekt starten",
@@ -196,7 +196,7 @@ const translations = {
     "service2.text": "Apps, die auf Telefonen und Computern funktionieren und ohne klassischen App Store installiert werden k&ouml;nnen.",
     "service3.title": "Individuelle Business-Systeme",
     "service3.text": "Bestellungen, Berechnungen, Mitarbeiterdaten, PDF-Berichte und Administrationswerkzeuge.",
-    "service4.title": "Mobile App Entwicklung",
+    "service4.title": "Entwicklung mobiler Apps",
     "service4.text": "Webanwendungen werden bei Bedarf zu Android- und iPhone-Apps erweitert.",
     "process.label": "Ablauf",
     "process.title": "Vom Gesch&auml;ftsproblem zur praktischen L&ouml;sung.",
@@ -214,8 +214,8 @@ const translations = {
     "contact.title": "Haben Sie eine Idee oder ein Gesch&auml;ftsproblem?",
     "contact.text": "Sagen Sie mir, was Sie brauchen. Ich helfe dabei, daraus eine praktische digitale L&ouml;sung zu machen.",
     "contact.email": "E-Mail senden",
-    "footer.role": "Milos Pantic - Full Stack Developer",
-    "footer.credit": "Entworfen und entwickelt von Milos Pantic.",
+    "footer.role": "Miloš Pantić — Full-Stack-Entwickler",
+    "footer.credit": "Entworfen und entwickelt von Miloš Pantić.",
     "fg.category": "Restaurantsoftware",
     "fg.title": "Gruppen-Men&uuml;bestellsystem",
     "fg.intro": "Ein komplettes digitales Bestellsystem f&uuml;r Restaurantgruppen mit QR-Zugang, Teilnehmerbestellung, Administration, K&uuml;chenlisten und PDF-Berichten.",
@@ -298,13 +298,13 @@ const translations = {
     "nav.process": "Proces",
     "nav.contact": "Kontakt",
     "hero.kicker": "Web sajtovi &middot; Aplikacije &middot; Poslovni sistemi",
-    "hero.role": "Full Stack Developer",
+    "hero.role": "Full-stack programer",
     "hero.text": "Razvijam moderne web sajtove, web aplikacije i poslovni softver koji re&scaron;avaju stvarne poslovne probleme.",
     "hero.projects": "Pogledaj projekte",
     "hero.start": "Pokrenimo projekat",
     "about.label": "O meni",
-    "about.title": "Blizu poslovanja. Otvoren prema svijetu.",
-    "about.text": "Ja sam Milos Pantic, nezavisni full-stack developer dostupan za međunarodne projekte. Pravim web sajtove i digitalne alate koji pojednostavljuju svakodnevne poslovne procese.",
+    "about.title": "Blizu poslovanja. Otvoren prema svetu.",
+    "about.text": "Ja sam Miloš Pantić, nezavisni full-stack programer dostupan za međunarodne projekte. Pravim web sajtove i digitalne alate koji pojednostavljuju svakodnevne poslovne procese.",
     "about.point1": "Dostupan za međunarodne projekte",
     "about.point2": "Web, PWA i poslovni softver",
     "about.point3": "Re&scaron;enja napravljena oko stvarnih procesa",
@@ -315,18 +315,18 @@ const translations = {
     "project1.text": "Kompletan digitalni sistem za poru&ccaron;ivanje za restoranske grupe, sa QR pristupom, porud&zcaron;binama u&ccaron;esnika, administracijom, kuhinjskim listama i PDF izve&scaron;tajima.",
     "project2.type": "Premium turisti&ccaron;ki web sajt",
     "project2.text": "Vi&scaron;ejezi&ccaron;ni web sajt za sme&scaron;taj, napravljen za predstavljanje alpskih chaleta, direktne upite i premium brend iskustvo.",
-    "project3.type": "Upravljanje radnicima i prihodima farme",
+    "project3.type": "Upravljanje radnicima i prihodima gazdinstva",
     "project3.title": "Sistem za upravljanje poljoprivredom",
     "project3.text": "Fleksibilna aplikacija za upravljanje poljoprivrednim radnicima, dnevnicama, zadacima, tro&scaron;kovima, prihodima i sezonskim izve&scaron;tajima.",
     "services.label": "Usluge",
     "services.title": "Digitalni proizvodi za svakodnevno poslovanje.",
     "service1.title": "Poslovni web sajtovi",
     "service1.text": "Moderni sajtovi za hotele, restorane, apartmane i mala preduze&cacute;a.",
-    "service2.title": "Progresivna web aplikacijas",
+    "service2.title": "Progresivne web aplikacije",
     "service2.text": "Aplikacije koje rade na telefonu i ra&ccaron;unaru i mogu da se instaliraju bez klasi&ccaron;ne prodavnice aplikacija.",
-    "service3.title": "Custom poslovni sistemi",
+    "service3.title": "Poslovni sistemi po meri",
     "service3.text": "Poru&ccaron;ivanje, obra&ccaron;uni, evidencija radnika, PDF izve&scaron;taji i administracioni alati.",
-    "service4.title": "Mobile App Development",
+    "service4.title": "Razvoj mobilnih aplikacija",
     "service4.text": "Pretvaranje web aplikacija u Android i iPhone aplikacije kada je to potrebno.",
     "process.label": "Proces",
     "process.title": "Od poslovnog problema do prakti&ccaron;nog re&scaron;enja.",
@@ -343,9 +343,9 @@ const translations = {
     "contact.label": "Kontakt",
     "contact.title": "Ima&scaron; ideju ili poslovni problem za re&scaron;avanje?",
     "contact.text": "Reci mi &scaron;ta ti treba. Pomo&cacute;i &cacute;u da to pretvorimo u prakti&ccaron;no digitalno re&scaron;enje.",
-    "contact.email": "Po&scaron;alji email",
-    "footer.role": "Milos Pantic - Full Stack Developer",
-    "footer.credit": "Dizajnirao i razvio Milos Pantic.",
+    "contact.email": "Po&scaron;alji e-mail",
+    "footer.role": "Miloš Pantić — Full-stack programer",
+    "footer.credit": "Dizajnirao i razvio Miloš Pantić.",
     "fg.category": "Restoranski softver",
     "fg.title": "Sistem za grupno poru&ccaron;ivanje menija",
     "fg.intro": "Kompletan digitalni sistem za poru&ccaron;ivanje za restoranske grupe, sa QR pristupom, porud&zcaron;binama u&ccaron;esnika, administracijom, kuhinjskim listama i PDF izve&scaron;tajima.",
@@ -374,9 +374,9 @@ const translations = {
     "ac.result": "Brend sme&scaron;taja dobija jasniju premium prezentaciju i strukturu sajta napravljenu oko poverenja i direktnih rezervacija.",
     "fw.category": "Poljoprivredni softver",
     "fw.heading": "Sistem za upravljanje poljoprivredom",
-    "fw.title": "Upravljanje radnicima i prihodima farme",
+    "fw.title": "Upravljanje radnicima i prihodima gazdinstva",
     "fw.intro": "Fleksibilna aplikacija za upravljanje poljoprivrednim radnicima, dnevnicama, zadacima, tro&scaron;kovima, prihodima i sezonskim izve&scaron;tajima.",
-    "fw.value": "Napravljena za farme i sezonski rad gde radnici, dnevnice, tro&scaron;kovi ma&scaron;ina, prevoz i prihod moraju da ostanu organizovani.",
+    "fw.value": "Napravljena za gazdinstva i sezonski rad gde radnici, dnevnice, tro&scaron;kovi ma&scaron;ina, prevoz i prihod moraju da ostanu organizovani.",
     "fw.problem": "Sezonski poljoprivredni rad se &ccaron;esto oslanja na papire, ru&ccaron;ni obra&ccaron;un dnevnica i razbacane evidencije radnika, kultura, zadataka i tro&scaron;kova.",
     "fw.solution": "Fleksibilna PWA aplikacija za berbu vo&cacute;a, vinograde, povrtarstvo, rad ma&scaron;ina, gorivo, prevoz i razli&ccaron;ite sezone.",
     "fw.feature1": "Upravljanje radnicima i prisustvom",
@@ -572,7 +572,10 @@ sectionNavLinks.forEach((link) => link.addEventListener("click", () => {
   sectionNavLinks.forEach((item) => item.classList.toggle("is-current", item === link));
   navigationTarget = link.getAttribute("href");
   clearTimeout(navigationIdle);
-  navigationIdle = setTimeout(() => { navigationTarget = null; }, 1800);
+  navigationIdle = setTimeout(() => {
+    navigationTarget = null;
+    syncPremiumNavigation();
+  }, 3200);
 }));
 
 const portfolioImages = document.querySelectorAll(".clarity-home .result-visual img");
@@ -601,5 +604,11 @@ if (portfolioImages.length) {
   document.addEventListener("keydown", (event) => { if (event.key === "Escape") closeLightbox(); });
 }
 
-window.addEventListener('scrollend',()=>{navigationTarget=null;});
-['wheel','touchstart'].forEach(event=>window.addEventListener(event,()=>{navigationTarget=null;},{passive:true}));
+window.addEventListener('scrollend',()=>{
+  if (!navigationTarget) return;
+  const target = document.querySelector(navigationTarget);
+  if (target && Math.abs(target.getBoundingClientRect().top) < 280) {
+    navigationTarget = null;
+    syncPremiumNavigation();
+  }
+});
