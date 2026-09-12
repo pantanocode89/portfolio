@@ -1,8 +1,8 @@
 (function () {
   const copy = {
     en: {
-      nav:["Work","Capabilities","About","Start a project ↗"],
-      hero:["WEBSITES · APPS · BUSINESS SYSTEMS","Digital solutions shaped around your business.","I build custom websites, applications and business systems — from the first idea to a finished solution that simplifies work and delivers measurable value.","See what I can build","Propose an idea or collaboration","Custom solutions","Direct collaboration","Support after launch","CUSTOM DIGITAL SOLUTIONS","One studio. Any digital solution your business needs. Designed around your workflow — not around a template."],
+      nav:["Work","Capabilities","About","Discuss a project ↗"],
+      hero:["WEBSITES · APPS · BUSINESS SYSTEMS","Digital solutions shaped around your business.","I build custom websites, applications and business systems — from the first idea to a finished solution that simplifies work and delivers measurable value.","See what I can build","Propose an idea or collaboration","Custom solutions","Direct collaboration","Support after launch","CUSTOM DIGITAL SOLUTIONS","One developer. Digital solutions shaped around your workflow — not around a template."],
       builder:["WHAT I CAN BUILD","CUSTOM SYSTEM ARCHITECT","YOUR BUSINESS","ONE CONNECTED SOLUTION","Built around your workflow","Websites","Applications","POS Systems","Hotel Operations","Farm Management","Automation","System ready to scale","ONLINE"],
       services:["WHAT I CAN DO FOR YOU","From a focused website to a complete business system.","These services are only a starting point. Every solution can be adapted to your idea, customers, team and workflow."],
       cards:[
@@ -33,8 +33,8 @@
       footer:["Practical digital solutions","© 2026 Torlac Solutions · Miloš Pantić. All rights reserved.","Legal notice","Privacy","Back to top ↑"]
     },
     de: {
-      nav:["Projekte","Leistungen","Über mich","Projekt starten ↗"],
-      hero:["WEBSITES · APPS · GESCHÄFTSSYSTEME","Digitale Lösungen, passend zu Ihrem Unternehmen.","Ich entwickle individuelle Websites, Anwendungen und Geschäftssysteme — von der ersten Idee bis zur fertigen Lösung, die Abläufe vereinfacht und konkrete Ergebnisse liefert.","Was ich entwickeln kann","Idee oder Zusammenarbeit vorschlagen","Individuelle Lösungen","Direkte Zusammenarbeit","Support nach dem Launch","INDIVIDUELLE DIGITALE LÖSUNGEN","Ein Studio. Jede digitale Lösung, die Ihr Unternehmen braucht. Passend zu Ihren Abläufen — nicht zu einer Vorlage."],
+      nav:["Projekte","Leistungen","Über mich","Projekt besprechen ↗"],
+      hero:["WEBSITES · APPS · GESCHÄFTSSYSTEME","Digitale Lösungen, passend zu Ihrem Unternehmen.","Ich entwickle individuelle Websites, Anwendungen und Geschäftssysteme — von der ersten Idee bis zur fertigen Lösung, die Abläufe vereinfacht und konkrete Ergebnisse liefert.","Was ich entwickeln kann","Idee oder Zusammenarbeit vorschlagen","Individuelle Lösungen","Direkte Zusammenarbeit","Support nach dem Launch","INDIVIDUELLE DIGITALE LÖSUNGEN","Ein Entwickler. Digitale Lösungen passend zu Ihren Abläufen — nicht zu einer Vorlage."],
       builder:["WAS ICH ENTWICKELN KANN","ARCHITEKT INDIVIDUELLER SYSTEME","IHR UNTERNEHMEN","EINE VERNETZTE LÖSUNG","Passend zu Ihren Abläufen","Websites","Anwendungen","Kassensysteme","Hotelorganisation","Agrar-Management","Automatisierung","Bereit zum Skalieren","ONLINE"],
       services:["WAS ICH FÜR SIE UMSETZEN KANN","Von einer fokussierten Website bis zum kompletten Geschäftssystem.","Diese Leistungen sind nur ein Ausgangspunkt. Jede Lösung kann an Ihre Idee, Kunden, Mitarbeiter und Abläufe angepasst werden."],
       cards:[
@@ -124,5 +124,5 @@
     const meta=document.querySelector('meta[name="description"]');if(meta)meta.content=lang==="de"?"Torlac Solutions entwickelt individuelle Websites, Anwendungen und Geschäftssysteme.":lang==="sr"?"Torlac Solutions izrađuje web sajtove, aplikacije i poslovne sisteme po meri.":"Torlac Solutions builds custom websites, applications and business systems.";
     document.title=lang==="de"?"Torlac Solutions — Websites, Apps & Geschäftssysteme":lang==="sr"?"Torlac Solutions — Web sajtovi, aplikacije i poslovni sistemi":"Torlac Solutions — Websites, Apps & Business Systems";
   }
-  window.PantaHomeI18n={apply};
+  window.TorlacHomeI18n={apply};
 })();

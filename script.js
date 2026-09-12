@@ -414,10 +414,10 @@ if (returningToSection) {
 function setLanguage(language) {
   const selected = translations[language] ? language : "en";
   const copy = translations[selected];
-  window.PantaHomeI18n?.apply(selected);
+  window.TorlacHomeI18n?.apply(selected);
 
   document.documentElement.lang = selected;
-  localStorage.setItem("panta-studio-language", selected);
+  localStorage.setItem("torlac-solutions-language", selected);
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.dataset.i18n;
@@ -462,7 +462,7 @@ function finishIntro() {
   window.setTimeout(() => intro.remove(), 700);
 }
 
-  const savedLanguage = localStorage.getItem("panta-studio-language") || "en";
+  const savedLanguage = localStorage.getItem("torlac-solutions-language") || "en";
 setLanguage(savedLanguage);
 
 const revealObserver = new IntersectionObserver(
@@ -545,38 +545,29 @@ document.querySelectorAll("[data-project-href]").forEach((card) => {
 
 const premiumHeader = document.querySelector(".clarity-home .site-header");
 const sectionNavLinks = document.querySelectorAll(".clarity-home .nav-links a[href^='#']");
-let navigationTarget = null;
-let navigationIdle;
-const syncPremiumNavigation = () => {
-  if (navigationTarget) return;
-  premiumHeader?.classList.toggle("is-compact", window.scrollY > 48);
-  let current = "";
-  let closestTop = -Infinity;
-  sectionNavLinks.forEach((link) => {
-    const section = document.querySelector(link.getAttribute("href"));
-    if (!section) return;
-    const top = section.getBoundingClientRect().top;
-    if (top <= 260 && top > closestTop) { closestTop = top; current = link.getAttribute("href"); }
-  });
-  if (!current && sectionNavLinks.length) {
-    const hashLink = Array.from(sectionNavLinks).find((link) => link.getAttribute("href") === window.location.hash);
-    if (hashLink) current = window.location.hash;
-  }
-  sectionNavLinks.forEach((link) => link.classList.toggle("is-current", link.getAttribute("href") === current));
-};
-window.addEventListener("scroll", syncPremiumNavigation, { passive: true });
-window.addEventListener("hashchange", syncPremiumNavigation);
-window.addEventListener("load", () => window.setTimeout(syncPremiumNavigation, 80));
-syncPremiumNavigation();
-sectionNavLinks.forEach((link) => link.addEventListener("click", () => {
+
+// Click-only navigation state: the green marker never follows scrolling.
+const setFixedNavigationItem = (link) => {
   sectionNavLinks.forEach((item) => item.classList.toggle("is-current", item === link));
-  navigationTarget = link.getAttribute("href");
-  clearTimeout(navigationIdle);
-  navigationIdle = setTimeout(() => {
-    navigationTarget = null;
-    syncPremiumNavigation();
-  }, 3200);
+};
+
+premiumHeader?.classList.toggle("is-compact", window.scrollY > 48);
+window.addEventListener("scroll", () => {
+  premiumHeader?.classList.toggle("is-compact", window.scrollY > 48);
+}, { passive: true });
+
+const initialHashLink = Array.from(sectionNavLinks).find((link) => link.getAttribute("href") === window.location.hash);
+if (initialHashLink) setFixedNavigationItem(initialHashLink);
+else if (sectionNavLinks.length) setFixedNavigationItem(sectionNavLinks[0]);
+
+sectionNavLinks.forEach((link) => link.addEventListener("click", () => {
+  setFixedNavigationItem(link);
 }));
+
+window.addEventListener("hashchange", () => {
+  const selected = Array.from(sectionNavLinks).find((link) => link.getAttribute("href") === window.location.hash);
+  if (selected) setFixedNavigationItem(selected);
+});
 
 const portfolioImages = document.querySelectorAll(".clarity-home .result-visual img");
 if (portfolioImages.length) {
@@ -604,11 +595,3 @@ if (portfolioImages.length) {
   document.addEventListener("keydown", (event) => { if (event.key === "Escape") closeLightbox(); });
 }
 
-window.addEventListener('scrollend',()=>{
-  if (!navigationTarget) return;
-  const target = document.querySelector(navigationTarget);
-  if (target && Math.abs(target.getBoundingClientRect().top) < 280) {
-    navigationTarget = null;
-    syncPremiumNavigation();
-  }
-});

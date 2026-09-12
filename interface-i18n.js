@@ -1,8 +1,8 @@
 (() => {
   const words = {
-    en: {top:'Back to top',close:'Close image',preview:'Project image preview',enlarge:'Enlarge',official:'Visit official website ↗',menu:'Menu',country:'Austria',language:'Language',navigation:'Navigation',group:'GroupOrder administration dashboard',chalet:'Alpenchalets Flachauer Gutshof website',portrait:'Miloš Pantić at work',operations:'OPERATIONS',admin:'Administrator',live:'LIVE',core:'CORE',sync:'SYNC',reports:'REPORTS'},
-    sr: {top:'Nazad na vrh',close:'Zatvori sliku',preview:'Pregled slike projekta',enlarge:'Uvećaj',official:'Posetite zvanični sajt ↗',menu:'Meni',country:'Austrija',language:'Jezik',navigation:'Navigacija',group:'GroupOrder — pregled upravljanja porudžbinama',chalet:'Sajt Alpenchalets Flachauer Gutshof',portrait:'Miloš Pantić na poslu',operations:'POSLOVANJE',admin:'Upravnik sistema',live:'UŽIVO',core:'JEZGRO',sync:'SINHRONIZACIJA',reports:'IZVEŠTAJI'},
-    de: {top:'Nach oben',close:'Bild schließen',preview:'Projektbild-Vorschau',enlarge:'Vergrößern',official:'Offizielle Website besuchen ↗',menu:'Menü',country:'Österreich',language:'Sprache',navigation:'Navigation',group:'GroupOrder — Bestellverwaltung',chalet:'Website von Alpenchalets Flachauer Gutshof',portrait:'Miloš Pantić bei der Arbeit',operations:'BETRIEB',admin:'Systemverwaltung',live:'AKTUELL',core:'KERN',sync:'ABGLEICH',reports:'BERICHTE'}
+    en: {top:'Back to top',close:'Close image',preview:'Project image preview',enlarge:'Enlarge',official:'Visit official website ↗',menu:'Menu',country:'Serbia',language:'Language',navigation:'Navigation',group:'GroupOrder administration dashboard',chalet:'Alpenchalets Flachauer Gutshof website',portrait:'Miloš Pantić at work',operations:'OPERATIONS',admin:'Administrator',live:'LIVE',core:'CORE',sync:'SYNC',reports:'REPORTS'},
+    sr: {top:'Nazad na vrh',close:'Zatvori sliku',preview:'Pregled slike projekta',enlarge:'Uvećaj',official:'Posetite zvanični sajt ↗',menu:'Meni',country:'Srbija',language:'Jezik',navigation:'Navigacija',group:'GroupOrder — pregled upravljanja porudžbinama',chalet:'Sajt Alpenchalets Flachauer Gutshof',portrait:'Miloš Pantić na poslu',operations:'POSLOVANJE',admin:'Upravnik sistema',live:'UŽIVO',core:'JEZGRO',sync:'SINHRONIZACIJA',reports:'IZVEŠTAJI'},
+    de: {top:'Nach oben',close:'Bild schließen',preview:'Projektbild-Vorschau',enlarge:'Vergrößern',official:'Offizielle Website besuchen ↗',menu:'Menü',country:'Serbien',language:'Sprache',navigation:'Navigation',group:'GroupOrder — Bestellverwaltung',chalet:'Website von Alpenchalets Flachauer Gutshof',portrait:'Miloš Pantić bei der Arbeit',operations:'BETRIEB',admin:'Systemverwaltung',live:'AKTUELL',core:'KERN',sync:'ABGLEICH',reports:'BERICHTE'}
   };
   const set=(selector,value)=>document.querySelectorAll(selector).forEach(el=>{if(el.textContent!==value)el.textContent=value;});
   const attr=(el,key,value)=>{if(el.getAttribute(key)!==value)el.setAttribute(key,value);};
@@ -27,7 +27,7 @@
     document.querySelectorAll('.footer-contact').forEach(el=>attr(el,'aria-label',contact));
     document.querySelectorAll('.footer-contact a').forEach(el=>{const provider=el.href.startsWith('mailto:')?'E-mail':el.href.startsWith('viber:')?'Viber':'WhatsApp';attr(el,'aria-label',contact+' — '+provider);});
     const walker=document.createTreeWalker(document.querySelector('.legal-main')||document.createElement('div'),NodeFilter.SHOW_TEXT);
-    while(walker.nextNode()){const n=walker.currentNode;if(/^(Austria \/ Österreich|Austria|Austrija|Österreich)$/.test(n.textContent.trim())&&n.textContent!==c.country)n.textContent=c.country;}
+    while(walker.nextNode()){const n=walker.currentNode;if(/^(Austria \/ Österreich|Austria|Austrija|Österreich|Serbia|Srbija|Serbien)$/.test(n.textContent.trim())&&n.textContent!==c.country)n.textContent=c.country;}
     if(document.body.classList.contains('case-page')){
       const title=document.querySelector('h1')?.textContent;
       if(title)document.title=title+' | Torlac Solutions';

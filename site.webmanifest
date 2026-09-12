@@ -6,5 +6,5 @@
   "display": "standalone",
   "background_color": "#0b0d0b",
   "theme_color": "#0b0d0b",
-  "icons": [{"src":"./public/logo/panta-studio-icon.png","sizes":"512x512","type":"image/png"}]
+  "icons": [{"src":"./public/logo/torlac-solutions-icon.png","sizes":"512x512","type":"image/png"}]
 }
