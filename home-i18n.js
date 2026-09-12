@@ -72,14 +72,14 @@
       cards:[
         ["Web sajtovi","Moderni sajtovi za hotele, apartmane, restorane, zanatlije i firme.","Više jezika","SEO i brzina","Kontakt i direktni upiti"],
         ["Rezervacije i poručivanje","Jednostavan put od posetioca do rezervacije, porudžbine ili upita.","QR poručivanje","Forme za rezervaciju","WhatsApp i e-mail"],
-        ["Web aplikacije","Aplikacije koje rade na telefonu i računaru bez komplikovane instalacije.","Korisnički nalozi","Admin panel","Rad na svakom uređaju"],
+        ["Web aplikacije","Aplikacije koje rade na telefonu i računaru bez komplikovane instalacije.","Korisnički nalozi","Administratorski panel","Rad na svakom uređaju"],
         ["Poslovni sistemi","Evidencija i izveštaji prilagođeni načinu na koji vaša firma radi.","Radnici i zadaci","Troškovi i prihodi","PDF izveštaji"],
         ["Automatizacija","Ponavljajući ručni posao pretvaram u brži digitalni proces.","Automatske kalkulacije","Dokumenti i QR kodovi","Obaveštenja i e-mailovi"],
         ["Artikli, cene i izveštaji","Sistemi koji vode artikle, automatski obračunavaju cene i pripremaju dokumente.","Artikli, cenovnici i zalihe","Ponude, računi i obračuni","PDF izveštaji za štampu"],
         ["Kasa-sistemi","Brza i pregledna prodaja za restorane, prodavnice i druge uslužne delatnosti.","Naplata i pregled porudžbina","Smene, promet i stanje kase","Štampa računa i izveštaja"],
         ["Čišćenje smeštaja","Aplikacije za organizaciju sobarica, apartmana i dnevnih zadataka čišćenja.","Raspored po sobama i objektima","Status: čeka, u toku, završeno","Fotografije, napomene i kontrola"],
-        ["Hausmajstori i održavanje","Prijava i raspodela kvarova za hotele, apartmane i poslovne objekte.","Zadaci po radniku i prioritetu","Fotografije kvara i popravke","Istorija radova i troškova"],
-        ["Online prodavnice","Moderne internet prodavnice koje kupcima olakšavaju pronalaženje, naručivanje i kupovinu proizvoda.","Katalog, kategorije i pretraga","Korpa, porudžbine i plaćanje","Upravljanje proizvodima i zalihama"],
+        ["Domari i održavanje","Prijava i raspodela kvarova za hotele, apartmane i poslovne objekte.","Zadaci po radniku i prioritetu","Fotografije kvara i popravke","Istorija radova i troškova"],
+        ["Internet prodavnice","Moderne internet prodavnice koje kupcima olakšavaju pronalaženje, naručivanje i kupovinu proizvoda.","Katalog, kategorije i pretraga","Korpa, porudžbine i plaćanje","Upravljanje proizvodima i zalihama"],
         ["Testiranje softvera","Proveravam sajtove, aplikacije i poslovne sisteme kako bi bili pouzdani, jasni i spremni za korisnike.","Funkcionalno i korisničko testiranje","Provera na telefonu i računaru","Prijava grešaka i jasni izveštaji"],
         ["Održavanje i podrška","Pomažem sa izmenama, domenom, hostingom i daljim razvojem.","Redovne izmene","Tehnička podrška","Dalje nadogradnje"]
       ],

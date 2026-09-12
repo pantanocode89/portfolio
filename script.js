@@ -257,7 +257,7 @@ const translations = {
     "fw.feature6": "Unterst&uuml;tzung f&uuml;r verschiedene Kulturen und T&auml;tigkeiten",
     "fw.technology": "Progressive Web App, mobile-first Interface, Berichte, strukturierte Daten und installierbare App-Erfahrung.",
     "fw.result": "Der Betrieb erh&auml;lt einen klareren &Uuml;berblick &uuml;ber Arbeiter, Kosten, Einnahmen und Saisonergebnisse.",
-    "ho.category":"Software für Beherbergungsbetriebe","ho.heading":"Hospitality Operations","ho.title":"Reinigungs- &amp; Instandhaltungsmanagement","ho.intro":"Ein übersichtliches System für Zimmerreinigung, Kontrollen, Störungsmeldungen, Prioritäten und erledigte Arbeiten.","ho.tag1":"Reinigung","ho.tag2":"Haustechnik","ho.value":"Für Hotels und Unterkunftsteams, die einen zuverlässigen Live-Überblick benötigen und Anrufe, Papierlisten sowie vergessene Aufgaben reduzieren möchten.","ho.problem":"Reinigungs- und Haustechnikteams koordinieren sich häufig über Anrufe, Papierlisten und verstreute Nachrichten. Dadurch sind Prioritäten und Zimmerstatus schwer nachzuverfolgen.","ho.solution":"Ein mobil optimiertes Betriebssystem, das Zimmer, Mitarbeiter, Aufgaben, Störungen, Fotos und Live-Status in einem täglichen Ablauf verbindet.","ho.feature1":"Reinigungspläne und Zimmerstatus","ho.feature2":"Störungsmeldungen mit Fotos und Priorität","ho.feature3":"Aufgaben für verantwortliche Mitarbeiter","ho.feature4":"Kontrollen, Notizen und Verlauf","ho.feature5":"Live-Übersicht für die Leitung","ho.feature6":"Berichte zu Zimmern, Arbeiten und Reaktionszeiten","ho.technology":"Responsive Progressive Web App, mobile Aufgabenansicht, rollenbasierte Bereiche, strukturierte Einträge, Fotodokumentation und Berichte.","ho.result":"Das Team weiß, was zu erledigen ist, wer verantwortlich ist und welche Zimmer bereit sind. Die Leitung erhält eine klare Dokumentation des täglichen Betriebs."
+    "ho.category":"Software für Beherbergungsbetriebe","ho.heading":"Betriebsorganisation für Unterkünfte","ho.title":"Reinigungs- &amp; Instandhaltungsmanagement","ho.intro":"Ein übersichtliches System für Zimmerreinigung, Kontrollen, Störungsmeldungen, Prioritäten und erledigte Arbeiten.","ho.tag1":"Reinigung","ho.tag2":"Haustechnik","ho.value":"Für Hotels und Unterkunftsteams, die einen zuverlässigen Live-Überblick benötigen und Anrufe, Papierlisten sowie vergessene Aufgaben reduzieren möchten.","ho.problem":"Reinigungs- und Haustechnikteams koordinieren sich häufig über Anrufe, Papierlisten und verstreute Nachrichten. Dadurch sind Prioritäten und Zimmerstatus schwer nachzuverfolgen.","ho.solution":"Ein mobil optimiertes Betriebssystem, das Zimmer, Mitarbeiter, Aufgaben, Störungen, Fotos und Live-Status in einem täglichen Ablauf verbindet.","ho.feature1":"Reinigungspläne und Zimmerstatus","ho.feature2":"Störungsmeldungen mit Fotos und Priorität","ho.feature3":"Aufgaben für verantwortliche Mitarbeiter","ho.feature4":"Kontrollen, Notizen und Verlauf","ho.feature5":"Live-Übersicht für die Leitung","ho.feature6":"Berichte zu Zimmern, Arbeiten und Reaktionszeiten","ho.technology":"Responsive Progressive Web App, mobile Aufgabenansicht, rollenbasierte Bereiche, strukturierte Einträge, Fotodokumentation und Berichte.","ho.result":"Das Team weiß, was zu erledigen ist, wer verantwortlich ist und welche Zimmer bereit sind. Die Leitung erhält eine klare Dokumentation des täglichen Betriebs."
   },
   sr: {
     "hero.title": "Digitalni alati koji olakšavaju svakodnevno poslovanje.",
@@ -282,7 +282,7 @@ const translations = {
     "case.features": "Funkcije",
     "case.technology": "Tehnologija",
     "case.result": "Rezultat",
-    "tag.admin": "Admin panel",
+    "tag.admin": "Administratorski panel",
     "tag.qr": "QR poru&ccaron;ivanje",
     "tag.tourism": "Turizam",
     "tag.responsive": "Responzivni dizajn",
@@ -322,7 +322,7 @@ const translations = {
     "services.title": "Digitalni proizvodi za svakodnevno poslovanje.",
     "service1.title": "Poslovni web sajtovi",
     "service1.text": "Moderni sajtovi za hotele, restorane, apartmane i mala preduze&cacute;a.",
-    "service2.title": "Progressive Web Apps",
+    "service2.title": "Progresivna web aplikacijas",
     "service2.text": "Aplikacije koje rade na telefonu i ra&ccaron;unaru i mogu da se instaliraju bez klasi&ccaron;ne prodavnice aplikacija.",
     "service3.title": "Custom poslovni sistemi",
     "service3.text": "Poru&ccaron;ivanje, obra&ccaron;uni, evidencija radnika, PDF izve&scaron;taji i administracioni alati.",
@@ -351,13 +351,13 @@ const translations = {
     "fg.intro": "Kompletan digitalni sistem za poru&ccaron;ivanje za restoranske grupe, sa QR pristupom, porud&zcaron;binama u&ccaron;esnika, administracijom, kuhinjskim listama i PDF izve&scaron;tajima.",
     "fg.value": "Napravljen da grupno poru&ccaron;ivanje bude jasnije, da smanji ru&ccaron;ni rad i da osoblju da br&zcaron;i pristup informacijama za porud&zcaron;bine i kuhinju.",
     "fg.problem": "Grupne porud&zcaron;bine u restoranu postaju te&scaron;ke za vo&dstrok;enje kada se u&ccaron;esnici, izbor menija, napomene i kuhinjske liste vode ru&ccaron;no.",
-    "fg.solution": "QR tok poru&ccaron;ivanja sa admin panelom, pregledom porud&zcaron;bina, kuhinjskim listama i PDF izlazom za dnevni rad.",
+    "fg.solution": "QR tok poru&ccaron;ivanja sa administratorskim panelom, pregledom porud&zcaron;bina, kuhinjskim listama i PDF izlazom za dnevni rad.",
     "fg.feature1": "QR pristup za u&ccaron;esnike grupe",
     "fg.feature2": "Tok poru&ccaron;ivanja za u&ccaron;esnike",
     "fg.feature3": "Administracioni panel",
     "fg.feature4": "Kuhinjske liste i PDF izve&scaron;taji",
     "fg.feature5": "WhatsApp integracija",
-    "fg.technology": "Progressive Web App, Firebase, Firestore, responzivni interfejs, PDF generisanje i admin alati.",
+    "fg.technology": "Progresivna web aplikacija, Firebase, Firestore, responzivni interfejs, PDF generisanje i administratorski alati.",
     "fg.result": "Posao dobija jasniji proces poru&ccaron;ivanja, manje ru&ccaron;ne koordinacije i digitalni sistem koji prati stvaran rad restorana.",
     "ac.category": "Turisti&ccaron;ki web sajt",
     "ac.title": "Premium turisti&ccaron;ki web sajt",
@@ -370,7 +370,7 @@ const translations = {
     "ac.feature3": "Direktan tok rezervacije i upita",
     "ac.feature4": "Vi&scaron;ejezi&ccaron;na struktura",
     "ac.feature5": "SEO spremna arhitektura stranica",
-    "ac.technology": "Moderan responzivni frontend, strukturiran sadr&zcaron;aj, layout fokusiran na performanse i skalabilne komponente.",
+    "ac.technology": "Moderan prilagodljiv korisnički interfejs, strukturiran sadr&zcaron;aj, raspored prilagođen brzom učitavanju i skalabilne komponente.",
     "ac.result": "Brend sme&scaron;taja dobija jasniju premium prezentaciju i strukturu sajta napravljenu oko poverenja i direktnih rezervacija.",
     "fw.category": "Poljoprivredni softver",
     "fw.heading": "Sistem za upravljanje poljoprivredom",
@@ -385,9 +385,9 @@ const translations = {
     "fw.feature4": "Individualni izve&scaron;taji radnika",
     "fw.feature5": "PDF i mobilni izve&scaron;taji",
     "fw.feature6": "Podr&scaron;ka za razli&ccaron;ite kulture i aktivnosti",
-    "fw.technology": "Progressive Web App, mobile-first interfejs, izve&scaron;taji, strukturirani podaci i iskustvo aplikacije koja se instalira.",
+    "fw.technology": "Progresivna web aplikacija, interfejs prvenstveno prilagođen telefonu, izve&scaron;taji, strukturirani podaci i iskustvo aplikacije koja se instalira.",
     "fw.result": "Gazdinstvo dobija jasniji pregled radnika, tro&scaron;kova, prihoda i sezonskih rezultata, uz izve&scaron;taje na telefonu ili ra&ccaron;unaru.",
-    "ho.category":"Softver za smeštaj","ho.heading":"Organizacija smeštaja","ho.title":"Upravljanje čišćenjem i održavanjem","ho.intro":"Jedan pregledan sistem za čišćenje soba, kontrole, prijavu kvarova, prioritete i završene radove.","ho.tag1":"Čišćenje","ho.tag2":"Održavanje","ho.value":"Namenjeno hotelima i timovima za smeštaj kojima je potreban pouzdan pregled uživo, uz manje poziva, papirnih spiskova i propuštenih zadataka.","ho.problem":"Timovi za čišćenje i održavanje često se dogovaraju pozivima, papirnim spiskovima i razbacanim porukama, pa je teško pratiti prioritete i status soba.","ho.solution":"Mobilni poslovni sistem koji povezuje sobe, zaposlene, zadatke, kvarove, fotografije i statuse u jedan dnevni proces.","ho.feature1":"Raspored čišćenja i status soba","ho.feature2":"Prijava kvarova sa fotografijama i prioritetom","ho.feature3":"Dodeljivanje zadataka odgovornim radnicima","ho.feature4":"Kontrole, napomene i istorija radova","ho.feature5":"Pregled uživo za upravljanje","ho.feature6":"Izveštaji o sobama, radovima i vremenu reakcije","ho.technology":"Responsive Progressive Web App, mobilni prikaz zadataka, korisničke uloge, strukturirana evidencija, fotografije i izveštaji.","ho.result":"Tim zna šta treba uraditi, ko je odgovoran i koje su sobe spremne, dok uprava dobija jasnu evidenciju svakodnevnog rada."
+    "ho.category":"Softver za smeštaj","ho.heading":"Organizacija smeštaja","ho.title":"Upravljanje čišćenjem i održavanjem","ho.intro":"Jedan pregledan sistem za čišćenje soba, kontrole, prijavu kvarova, prioritete i završene radove.","ho.tag1":"Čišćenje","ho.tag2":"Održavanje","ho.value":"Namenjeno hotelima i timovima za smeštaj kojima je potreban pouzdan pregled uživo, uz manje poziva, papirnih spiskova i propuštenih zadataka.","ho.problem":"Timovi za čišćenje i održavanje često se dogovaraju pozivima, papirnim spiskovima i razbacanim porukama, pa je teško pratiti prioritete i status soba.","ho.solution":"Mobilni poslovni sistem koji povezuje sobe, zaposlene, zadatke, kvarove, fotografije i statuse u jedan dnevni proces.","ho.feature1":"Raspored čišćenja i status soba","ho.feature2":"Prijava kvarova sa fotografijama i prioritetom","ho.feature3":"Dodeljivanje zadataka odgovornim radnicima","ho.feature4":"Kontrole, napomene i istorija radova","ho.feature5":"Pregled uživo za upravljanje","ho.feature6":"Izveštaji o sobama, radovima i vremenu reakcije","ho.technology":"Prilagodljiva progresivna web aplikacija, mobilni prikaz zadataka, korisničke uloge, strukturirana evidencija, fotografije i izveštaji.","ho.result":"Tim zna šta treba uraditi, ko je odgovoran i koje su sobe spremne, dok uprava dobija jasnu evidenciju svakodnevnog rada."
   }
 };
 
@@ -399,7 +399,7 @@ const languageButtons = document.querySelectorAll("[data-lang]");
 
 const returningToSection = window.location.hash.length > 1;
 const returningFromProject = new URLSearchParams(window.location.search).get("from") === "project";
-if (intro && returningFromProject) intro.remove();
+if (intro && (returningFromProject || window.skipPortfolioIntro)) intro.remove();
 else if (intro) document.body.classList.add("intro-active");
 
 if (returningToSection) {
@@ -485,9 +485,9 @@ languageButtons.forEach((button) => {
 
 if (intro && intro.isConnected) {
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    window.setTimeout(finishIntro, 1800);
+    window.setTimeout(finishIntro, window.matchMedia("(max-width: 680px)").matches ? 800 : 1800);
   } else {
-    const startIntroTimer = () => window.setTimeout(finishIntro, 4300);
+    const startIntroTimer = () => window.setTimeout(finishIntro, window.matchMedia("(max-width: 680px)").matches ? 3300 : 4300);
     if (document.readyState === "complete") startIntroTimer();
     else window.addEventListener("load", startIntroTimer, { once: true });
     intro.addEventListener("click", finishIntro);
@@ -545,7 +545,10 @@ document.querySelectorAll("[data-project-href]").forEach((card) => {
 
 const premiumHeader = document.querySelector(".clarity-home .site-header");
 const sectionNavLinks = document.querySelectorAll(".clarity-home .nav-links a[href^='#']");
+let navigationTarget = null;
+let navigationIdle;
 const syncPremiumNavigation = () => {
+  if (navigationTarget) return;
   premiumHeader?.classList.toggle("is-compact", window.scrollY > 48);
   let current = "";
   let closestTop = -Infinity;
@@ -567,7 +570,9 @@ window.addEventListener("load", () => window.setTimeout(syncPremiumNavigation, 8
 syncPremiumNavigation();
 sectionNavLinks.forEach((link) => link.addEventListener("click", () => {
   sectionNavLinks.forEach((item) => item.classList.toggle("is-current", item === link));
-  window.setTimeout(syncPremiumNavigation, 450);
+  navigationTarget = link.getAttribute("href");
+  clearTimeout(navigationIdle);
+  navigationIdle = setTimeout(() => { navigationTarget = null; }, 1800);
 }));
 
 const portfolioImages = document.querySelectorAll(".clarity-home .result-visual img");
@@ -580,16 +585,21 @@ if (portfolioImages.length) {
   lightbox.innerHTML = '<button type="button" aria-label="Close image">×</button><img alt="">';
   document.body.appendChild(lightbox);
   const lightboxImage = lightbox.querySelector("img");
-  const closeLightbox = () => { lightbox.classList.remove("is-open"); document.body.classList.remove("lightbox-open"); };
+  let previousImageFocus;
+  const closeLightbox = () => { previousImageFocus?.focus({preventScroll:true}); lightbox.classList.remove("is-open"); document.body.classList.remove("lightbox-open"); };
   portfolioImages.forEach((image) => {
     image.tabIndex = 0;
     image.setAttribute("role", "button");
     image.setAttribute("aria-label", `${image.alt || "Project image"} — enlarge`);
-    const open = () => { lightboxImage.src = image.currentSrc || image.src; lightboxImage.alt = image.alt; lightbox.classList.add("is-open"); document.body.classList.add("lightbox-open"); lightbox.querySelector("button").focus(); };
+    const open = () => { previousImageFocus=image; lightboxImage.src = image.currentSrc || image.src; lightboxImage.alt = image.alt; lightbox.classList.add("is-open"); document.body.classList.add("lightbox-open"); lightbox.querySelector("button").focus(); };
     image.addEventListener("click", open);
     image.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); open(); } });
   });
+  lightbox.addEventListener("keydown", event => { if(event.key === "Tab") { event.preventDefault(); lightbox.querySelector("button").focus(); } });
   lightbox.querySelector("button").addEventListener("click", closeLightbox);
   lightbox.addEventListener("click", (event) => { if (event.target === lightbox) closeLightbox(); });
   document.addEventListener("keydown", (event) => { if (event.key === "Escape") closeLightbox(); });
 }
+
+window.addEventListener('scrollend',()=>{navigationTarget=null;});
+['wheel','touchstart'].forEach(event=>window.addEventListener(event,()=>{navigationTarget=null;},{passive:true}));
