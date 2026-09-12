@@ -121,7 +121,7 @@
     const a=c.about;set("#about .eyebrow",a[0]);set("#about h2",a[1]);set("#about .why-copy>p:not(.eyebrow)",a[2]);setMany("#about .why-points small",a.slice(3));
     const ct=c.contact;set("#contact .eyebrow",ct[0]);set("#contact h2",ct[1]);set("#contact>p:not(.eyebrow)",ct[2]);set("#contact .btn",ct[3]);set("#contact>small",ct[4]);
     set(".footer-brand-head span",c.footer[0]);set(".footer-copyright",c.footer[1]);const legal=document.querySelectorAll(".footer-legal a");if(legal[0])legal[0].textContent=c.footer[2];if(legal[1])legal[1].textContent=c.footer[3];if(legal[2])legal[2].textContent=c.footer[4];
-    const meta=document.querySelector('meta[name="description"]');if(meta)meta.content=lang==="de"?"Torlac Solutions entwickelt individuelle Websites, Anwendungen und Geschäftssysteme.":lang==="sr"?"Torlac Solutions izrađuje web sajtove, aplikacije i poslovne sisteme po meri.":"Torlac Solutions builds custom websites, applications and business systems.";
+    const meta=document.querySelector('meta[name="description"]');if(meta)meta.content=lang==="de"?"Torlac Solutions entwickelt individuelle Websites, Anwendungen und Geschäftssysteme.":lang==="sr"?"Torlac Solutions izrađuje web sajtove, aplikacije i poslovne sisteme po meri.":"Custom websites, web applications and business systems by Miloš Pantić. Explore solutions for hospitality, tourism and agriculture.";
     document.title=lang==="de"?"Torlac Solutions — Websites, Apps & Geschäftssysteme":lang==="sr"?"Torlac Solutions — Web sajtovi, aplikacije i poslovni sistemi":"Torlac Solutions — Websites, Apps & Business Systems";
   }
   window.TorlacHomeI18n={apply};
